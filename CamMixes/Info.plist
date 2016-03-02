@@ -43,5 +43,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HelveticaNeue.dfont</string>
+		<string>HighTide.otf</string>
+		<string>HighTideBold.otf</string>
+		<string>HighTideSans.otf</string>
+		<string>MYRIADPRO-REGULAR.OTF</string>
+	</array>
 </dict>
 </plist>

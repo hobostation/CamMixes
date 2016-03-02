@@ -12,6 +12,12 @@
 		DCCE68521C874244009559FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68501C874244009559FF /* Main.storyboard */; };
 		DCCE68541C874244009559FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68531C874244009559FF /* Assets.xcassets */; };
 		DCCE68571C874244009559FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68551C874244009559FF /* LaunchScreen.storyboard */; };
+		DCCE68641C8747A1009559FF /* HelveticaNeue.dfont in Resources */ = {isa = PBXBuildFile; fileRef = DCCE685F1C8747A1009559FF /* HelveticaNeue.dfont */; };
+		DCCE68651C8747A1009559FF /* HighTide.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68601C8747A1009559FF /* HighTide.otf */; };
+		DCCE68661C8747A1009559FF /* HighTideBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68611C8747A1009559FF /* HighTideBold.otf */; };
+		DCCE68671C8747A1009559FF /* HighTideSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68621C8747A1009559FF /* HighTideSans.otf */; };
+		DCCE68681C8747A1009559FF /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68631C8747A1009559FF /* MYRIADPRO-REGULAR.OTF */; };
+		DCCE686A1C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		DCCE68531C874244009559FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCE68561C874244009559FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCE68581C874244009559FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCE685F1C8747A1009559FF /* HelveticaNeue.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.dfont; sourceTree = "<group>"; };
+		DCCE68601C8747A1009559FF /* HighTide.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTide.otf; sourceTree = "<group>"; };
+		DCCE68611C8747A1009559FF /* HighTideBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTideBold.otf; sourceTree = "<group>"; };
+		DCCE68621C8747A1009559FF /* HighTideSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTideSans.otf; sourceTree = "<group>"; };
+		DCCE68631C8747A1009559FF /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
+		DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor1-Gwanwyn.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +71,23 @@
 				DCCE68501C874244009559FF /* Main.storyboard */,
 				DCCE68531C874244009559FF /* Assets.xcassets */,
 				DCCE68551C874244009559FF /* LaunchScreen.storyboard */,
+				DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */,
 				DCCE68581C874244009559FF /* Info.plist */,
+				DCCE685E1C8746BA009559FF /* Fonts */,
 			);
 			path = CamMixes;
+			sourceTree = "<group>";
+		};
+		DCCE685E1C8746BA009559FF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DCCE685F1C8747A1009559FF /* HelveticaNeue.dfont */,
+				DCCE68601C8747A1009559FF /* HighTide.otf */,
+				DCCE68611C8747A1009559FF /* HighTideBold.otf */,
+				DCCE68621C8747A1009559FF /* HighTideSans.otf */,
+				DCCE68631C8747A1009559FF /* MYRIADPRO-REGULAR.OTF */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +150,13 @@
 			files = (
 				DCCE68571C874244009559FF /* LaunchScreen.storyboard in Resources */,
 				DCCE68541C874244009559FF /* Assets.xcassets in Resources */,
+				DCCE686A1C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 in Resources */,
+				DCCE68681C8747A1009559FF /* MYRIADPRO-REGULAR.OTF in Resources */,
+				DCCE68671C8747A1009559FF /* HighTideSans.otf in Resources */,
+				DCCE68661C8747A1009559FF /* HighTideBold.otf in Resources */,
+				DCCE68641C8747A1009559FF /* HelveticaNeue.dfont in Resources */,
 				DCCE68521C874244009559FF /* Main.storyboard in Resources */,
+				DCCE68651C8747A1009559FF /* HighTide.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
