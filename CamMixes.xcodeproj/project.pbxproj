@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC83212A1C8DF0E200562CA7 /* ViewControllerAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */; };
 		DCCE684D1C874244009559FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE684C1C874244009559FF /* AppDelegate.swift */; };
 		DCCE684F1C874244009559FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE684E1C874244009559FF /* ViewController.swift */; };
 		DCCE68521C874244009559FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68501C874244009559FF /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAbout.swift; sourceTree = "<group>"; };
 		DCCE68491C874244009559FF /* CamMixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamMixes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCE684C1C874244009559FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCE684E1C874244009559FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				DCCE684C1C874244009559FF /* AppDelegate.swift */,
 				DCCE684E1C874244009559FF /* ViewController.swift */,
 				DCCE68501C874244009559FF /* Main.storyboard */,
+				DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */,
 				DCCE68531C874244009559FF /* Assets.xcassets */,
 				DCCE68551C874244009559FF /* LaunchScreen.storyboard */,
 				DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */,
@@ -169,6 +172,7 @@
 			files = (
 				DCCE684F1C874244009559FF /* ViewController.swift in Sources */,
 				DCCE684D1C874244009559FF /* AppDelegate.swift in Sources */,
+				DC83212A1C8DF0E200562CA7 /* ViewControllerAbout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +322,7 @@
 				DCCE685D1C874244009559FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
