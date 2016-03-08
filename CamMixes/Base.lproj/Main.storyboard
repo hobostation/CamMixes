@@ -46,11 +46,22 @@
                         <viewControllerLayoutGuide type="bottom" id="9fo-PX-DSX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sW1-Dz-eE0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1130"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9nx-eq-jjY" userLabel="Stack ViewFooter">
+                                <rect key="frame" x="237" y="1235" width="127" height="12"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi4-lh-Mtq">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="12"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-Y3-XvZ" userLabel="Stack View Title">
-                                <rect key="frame" x="271" y="16" width="55" height="25"/>
+                                <rect key="frame" x="271" y="15" width="55" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="api-aQ-L9O">
                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
@@ -73,7 +84,7 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Top Image" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-4K-2p1" userLabel="Top image">
-                                <rect key="frame" x="20" y="46" width="560" height="362"/>
+                                <rect key="frame" x="20" y="45" width="560" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="213" id="CMq-LW-rnD"/>
                                     <constraint firstAttribute="height" constant="213" id="K2b-aQ-qmD"/>
@@ -86,19 +97,13 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-VV-lqR" userLabel="TopImageButton">
-                                <rect key="frame" x="20" y="46" width="560" height="362"/>
+                                <rect key="frame" x="20" y="45" width="560" height="400"/>
                                 <connections>
                                     <segue destination="I6S-iA-gnK" kind="show" id="Pdp-nR-6iU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi4-lh-Mtq">
-                                <rect key="frame" x="237" y="1110" width="127" height="12"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring image" translatesAutoresizingMaskIntoConstraints="NO" id="mr8-ny-VZm" userLabel="Spring View">
-                                <rect key="frame" x="20" y="421" width="276" height="293"/>
+                                <rect key="frame" x="20" y="458" width="276" height="325"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="xqJ-NT-xX9"/>
                                 </constraints>
@@ -109,13 +114,13 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-bN-YSM" userLabel="SpringButton">
-                                <rect key="frame" x="20" y="421" width="276" height="293"/>
+                                <rect key="frame" x="20" y="458" width="276" height="325"/>
                                 <connections>
                                     <segue destination="XhV-ST-lkQ" kind="show" id="MLX-Cf-cob"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Autumn Image" translatesAutoresizingMaskIntoConstraints="NO" id="anm-9c-i0M" userLabel="Autumn View">
-                                <rect key="frame" x="20" y="728" width="276" height="294"/>
+                                <rect key="frame" x="20" y="797" width="276" height="325"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Kq9-Jf-D8l"/>
                                 </constraints>
@@ -125,11 +130,8 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1en-si-gzM" userLabel="autumnButton">
-                                <rect key="frame" x="20" y="728" width="276" height="268"/>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-9v-XHJ" userLabel="Summer View">
-                                <rect key="frame" x="304" y="728" width="276" height="294"/>
+                                <rect key="frame" x="304" y="797" width="276" height="325"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="1Xt-PO-pM9"/>
                                 </constraints>
@@ -140,11 +142,11 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUo-TB-7cA" userLabel="summerButton">
-                                <rect key="frame" x="304" y="421" width="276" height="293"/>
+                                <rect key="frame" x="304" y="458" width="276" height="325"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-hJ-CYK" userLabel="Winter View">
-                                <rect key="frame" x="304" y="421" width="276" height="293"/>
+                                <rect key="frame" x="304" y="458" width="276" height="325"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Ey7-rY-dtM"/>
                                 </constraints>
@@ -155,7 +157,10 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6B-hu-jM4" userLabel="winterButton">
-                                <rect key="frame" x="304" y="728" width="276" height="271"/>
+                                <rect key="frame" x="304" y="797" width="276" height="324"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1en-si-gzM" userLabel="autumnButton">
+                                <rect key="frame" x="20" y="797" width="276" height="325"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -165,42 +170,48 @@
                             </constraint>
                             <constraint firstItem="r6B-hu-jM4" firstAttribute="leading" secondItem="anm-9c-i0M" secondAttribute="trailing" constant="8" id="24J-2n-tyr"/>
                             <constraint firstItem="bgF-bN-YSM" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leading" constant="20" id="39j-7W-qBk"/>
+                            <constraint firstItem="r6B-hu-jM4" firstAttribute="top" secondItem="EUo-TB-7cA" secondAttribute="bottom" constant="14" id="3aU-2M-2sZ"/>
                             <constraint firstItem="1en-si-gzM" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leadingMargin" id="3gu-cp-gJ6"/>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="leading" secondItem="R5J-4K-2p1" secondAttribute="leading" id="59q-qX-3hv"/>
+                            <constraint firstItem="EUo-TB-7cA" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="6ld-4O-jOB"/>
                             <constraint firstItem="mr8-ny-VZm" firstAttribute="top" secondItem="R5J-4K-2p1" secondAttribute="bottom" constant="13" id="78m-mv-1Fj">
                                 <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
                             <constraint firstItem="bgF-bN-YSM" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="7df-tT-Qqx"/>
+                            <constraint firstItem="1en-si-gzM" firstAttribute="top" secondItem="bgF-bN-YSM" secondAttribute="bottom" constant="14" id="87U-sH-x1a"/>
                             <constraint firstItem="mr8-ny-VZm" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="8qq-c4-SxL"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="trailing" secondItem="R5J-4K-2p1" secondAttribute="trailing" id="9D9-0W-YGX"/>
-                            <constraint firstItem="bi4-lh-Mtq" firstAttribute="top" secondItem="r6B-hu-jM4" secondAttribute="bottom" constant="111" id="9fy-Mi-YM0"/>
-                            <constraint firstItem="9fo-PX-DSX" firstAttribute="top" secondItem="bi4-lh-Mtq" secondAttribute="bottom" constant="8" id="A3a-LB-Hhf">
-                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
-                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="r6B-hu-jM4" secondAttribute="trailing" constant="20" id="9Je-uX-V8T"/>
                             <constraint firstItem="r6B-hu-jM4" firstAttribute="top" secondItem="EUo-TB-7cA" secondAttribute="bottom" constant="14" id="BVF-77-oVp"/>
                             <constraint firstItem="r6B-hu-jM4" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="Bhy-zF-bZp"/>
                             <constraint firstItem="bWA-9v-XHJ" firstAttribute="trailing" secondItem="R5J-4K-2p1" secondAttribute="trailing" id="CCh-W2-pQn"/>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="5" id="DSh-XJ-Qmt">
                                 <variation key="heightClass=regular-widthClass=regular" constant="15"/>
                             </constraint>
+                            <constraint firstItem="r6B-hu-jM4" firstAttribute="leading" secondItem="1en-si-gzM" secondAttribute="trailing" constant="8" id="DWy-He-48w"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="mr8-ny-VZm" secondAttribute="trailing" constant="8" id="DnR-oY-DJd"/>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="width" secondItem="RvP-hJ-CYK" secondAttribute="width" multiplier="2" constant="8" id="E02-s9-J5g">
                                 <variation key="heightClass=regular-widthClass=regular" constant="14"/>
                             </constraint>
+                            <constraint firstItem="r6B-hu-jM4" firstAttribute="leading" secondItem="1en-si-gzM" secondAttribute="trailing" constant="8" id="Eff-v5-8qY"/>
                             <constraint firstItem="mr8-ny-VZm" firstAttribute="leading" secondItem="R5J-4K-2p1" secondAttribute="leading" id="FnG-Mz-yaD"/>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leadingMargin" id="GtH-wn-H1K"/>
                             <constraint firstItem="r6B-hu-jM4" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="IPE-f5-omD"/>
+                            <constraint firstItem="1en-si-gzM" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leading" constant="20" id="LDg-pt-rKH"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="LSt-ng-G84"/>
-                            <constraint firstItem="bi4-lh-Mtq" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="QTr-TN-fT2"/>
+                            <constraint firstItem="r6B-hu-jM4" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="PkG-2s-Wqt"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="TTi-mb-7bl"/>
+                            <constraint firstAttribute="trailing" secondItem="r6B-hu-jM4" secondAttribute="trailing" constant="20" id="UWd-6q-e62"/>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.32" id="Uo8-Vs-l68">
                                 <variation key="heightClass=regular-widthClass=regular" constant="24"/>
                             </constraint>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="Uup-jH-fg5"/>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="XEh-IS-RW2"/>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="top" secondItem="mr8-ny-VZm" secondAttribute="bottom" constant="14" id="XHk-yd-BHL"/>
-                            <constraint firstItem="SOD-Y3-XvZ" firstAttribute="top" secondItem="sW1-Dz-eE0" secondAttribute="topMargin" constant="16" id="Yiv-Tg-T1x"/>
+                            <constraint firstItem="bWA-9v-XHJ" firstAttribute="leading" secondItem="1en-si-gzM" secondAttribute="trailing" constant="8" id="YGI-BV-bZ5"/>
+                            <constraint firstItem="SOD-Y3-XvZ" firstAttribute="top" secondItem="sW1-Dz-eE0" secondAttribute="topMargin" constant="15" id="Yiv-Tg-T1x"/>
                             <constraint firstItem="bWA-9v-XHJ" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="ZR2-UQ-HI1"/>
+                            <constraint firstAttribute="trailing" secondItem="EUo-TB-7cA" secondAttribute="trailing" constant="20" id="a95-HU-bf7"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="leading" secondItem="bgF-bN-YSM" secondAttribute="trailing" constant="8" id="bAU-oH-RZJ"/>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="bpT-Gh-RcN"/>
                             <constraint firstItem="SOD-Y3-XvZ" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" constant="-1.5" id="bx7-c6-AgT"/>
@@ -213,6 +224,7 @@
                             </constraint>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="enX-9U-tOf"/>
                             <constraint firstItem="r6B-hu-jM4" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="erc-Rn-ztq"/>
+                            <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="1en-si-gzM" secondAttribute="bottom" constant="113" id="fKR-b1-lQq"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="top" secondItem="R5J-4K-2p1" secondAttribute="bottom" constant="13" id="g9O-KA-QcQ">
                                 <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
@@ -222,12 +234,28 @@
                             <constraint firstItem="1en-si-gzM" firstAttribute="top" secondItem="bgF-bN-YSM" secondAttribute="bottom" constant="14" id="l2h-9T-Et0"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="m2T-8t-FS8"/>
                             <constraint firstItem="1en-si-gzM" firstAttribute="top" secondItem="mr8-ny-VZm" secondAttribute="bottom" constant="14" id="oE4-Sy-pz4"/>
+                            <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="r6B-hu-jM4" secondAttribute="bottom" constant="114" id="oSE-yZ-GN7"/>
+                            <constraint firstItem="9nx-eq-jjY" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="rJt-VS-eKy"/>
                             <constraint firstItem="bWA-9v-XHJ" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="sko-dh-rUu"/>
-                            <constraint firstItem="bi4-lh-Mtq" firstAttribute="top" secondItem="1en-si-gzM" secondAttribute="bottom" constant="114" id="w5c-aa-wbV"/>
+                            <constraint firstItem="9fo-PX-DSX" firstAttribute="top" secondItem="9nx-eq-jjY" secondAttribute="bottom" constant="3" id="uCu-fW-xel"/>
+                            <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="1en-si-gzM" secondAttribute="bottom" constant="38" id="w3z-Oa-pky"/>
+                            <constraint firstItem="1en-si-gzM" firstAttribute="top" secondItem="mr8-ny-VZm" secondAttribute="bottom" constant="14" id="xvM-JK-CaM"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="a95-HU-bf7"/>
+                                <exclude reference="3gu-cp-gJ6"/>
+                                <exclude reference="l2h-9T-Et0"/>
+                                <exclude reference="oE4-Sy-pz4"/>
+                                <exclude reference="24J-2n-tyr"/>
+                                <exclude reference="BVF-77-oVp"/>
+                                <exclude reference="Bhy-zF-bZp"/>
+                                <exclude reference="Eff-v5-8qY"/>
+                                <exclude reference="IPE-f5-omD"/>
+                                <exclude reference="UWd-6q-e62"/>
                                 <exclude reference="erc-Rn-ztq"/>
+                                <exclude reference="kTl-jc-UMs"/>
+                                <exclude reference="w3z-Oa-pky"/>
                             </mask>
                         </variation>
                     </view>
@@ -337,7 +365,7 @@
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vTA-yo-CrH" userLabel="Stack ViewBodyText">
-                                                <rect key="frame" x="20" y="389" width="560" height="227"/>
+                                                <rect key="frame" x="20" y="389" width="560" height="110"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys4-Yd-713">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
@@ -369,8 +397,14 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKB-Wj-hle">
-                                                        <rect key="frame" x="0.0" y="117" width="560" height="36"/>
+                                                </subviews>
+                                                <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-Mt-Pxt" userLabel="Stack ViewBodyTextEng">
+                                                <rect key="frame" x="20" y="539" width="560" height="110"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e36-BF-wRo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text"> / CAM is a multi-media platform based in Cardiff that operates as an experimental music radio show called ‘Cam o’r Tywyllwch’. The programme is broadcasted on Radio Cardiff and occasionally Resonance FM – archive shows can be found at our website which is also home to our online cinema: cam.wales </string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -379,8 +413,8 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rz-zW-fdf">
-                                                        <rect key="frame" x="0.0" y="160" width="560" height="36"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltp-jv-3zj">
+                                                        <rect key="frame" x="0.0" y="43" width="560" height="36"/>
                                                         <string key="text">We also publish a digital magazine (which can be downloaded for free via the iTunes store if you search for ‘Cychgrawn CAM magazine’), as well as hosting an annual festival of experimental music – more info can be found at our festival micro-site: camfestival.wales</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -389,8 +423,8 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="15"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R38-BQ-vPO">
-                                                        <rect key="frame" x="0.0" y="203" width="560" height="24"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bz-VW-vHo">
+                                                        <rect key="frame" x="0.0" y="86" width="560" height="24"/>
                                                         <string key="text">If that’s not enough, we also release a compilation series of experimental music from Wales on beautiful vinyl, go to our website to find out more.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -403,7 +437,7 @@
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ICJ-8M-kJt" userLabel="Stack View - company text">
-                                                <rect key="frame" x="40" y="634" width="521" height="43"/>
+                                                <rect key="frame" x="40" y="690" width="521" height="43"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py2-aK-D7M">
                                                         <rect key="frame" x="0.0" y="0.0" width="521" height="22"/>
@@ -438,7 +472,7 @@
                                                 </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R0g-za-mTJ" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="697" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="753" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1p-AO-RTc">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -461,8 +495,10 @@
                                             <constraint firstItem="pMJ-mB-gkP" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="DBH-rT-ykq"/>
                                             <constraint firstItem="Zsc-Iw-WyE" firstAttribute="top" secondItem="pMJ-mB-gkP" secondAttribute="bottom" constant="24" id="EWq-OS-Sqd"/>
                                             <constraint firstItem="Zsc-Iw-WyE" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="20" id="Edf-O5-OmG"/>
+                                            <constraint firstItem="GEY-Mt-Pxt" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="20" id="IzY-yK-XLN"/>
                                             <constraint firstItem="pMJ-mB-gkP" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="20" id="LrR-ck-XAP"/>
                                             <constraint firstItem="ICJ-8M-kJt" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="40" id="N63-JM-kp2"/>
+                                            <constraint firstAttribute="trailing" secondItem="GEY-Mt-Pxt" secondAttribute="trailing" constant="20" id="P9f-4Q-Vjp"/>
                                             <constraint firstItem="vTA-yo-CrH" firstAttribute="top" secondItem="Sfz-kH-5o7" secondAttribute="bottom" constant="23" id="PYY-Xf-fvn"/>
                                             <constraint firstAttribute="trailing" secondItem="TIf-w5-dpX" secondAttribute="trailing" constant="20" id="RSr-ri-rmv"/>
                                             <constraint firstAttribute="trailing" secondItem="pMJ-mB-gkP" secondAttribute="trailing" constant="20" id="RU3-gd-Z8y"/>
@@ -472,13 +508,14 @@
                                             <constraint firstItem="Sfz-kH-5o7" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="WJ6-5e-5jE"/>
                                             <constraint firstAttribute="height" constant="1350" id="WW3-k7-t3v"/>
                                             <constraint firstItem="TIf-w5-dpX" firstAttribute="top" secondItem="Zsc-Iw-WyE" secondAttribute="bottom" constant="8" id="Ynd-w2-cCx"/>
+                                            <constraint firstItem="ICJ-8M-kJt" firstAttribute="top" secondItem="GEY-Mt-Pxt" secondAttribute="bottom" constant="41" id="Za6-Vi-bM2"/>
                                             <constraint firstItem="R0g-za-mTJ" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="fwc-SS-Xce"/>
                                             <constraint firstItem="vnP-nD-ncK" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="gmG-k4-c7C"/>
                                             <constraint firstAttribute="trailing" secondItem="vTA-yo-CrH" secondAttribute="trailing" constant="20" id="pBe-Ll-1pb"/>
                                             <constraint firstItem="YIO-dI-sBu" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="8" id="tzL-kj-ZWS"/>
                                             <constraint firstItem="YIO-dI-sBu" firstAttribute="top" secondItem="D6F-7d-ab5" secondAttribute="top" constant="1" id="uEy-YD-w1K"/>
                                             <constraint firstItem="Zsc-Iw-WyE" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="xcu-uf-PMx"/>
-                                            <constraint firstItem="ICJ-8M-kJt" firstAttribute="top" secondItem="vTA-yo-CrH" secondAttribute="bottom" constant="18" id="zRw-Ty-v2U"/>
+                                            <constraint firstItem="GEY-Mt-Pxt" firstAttribute="top" secondItem="vTA-yo-CrH" secondAttribute="bottom" constant="40" id="yGp-O4-e1l"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -510,7 +547,7 @@
         <!--Spring-->
         <scene sceneID="0hz-Q0-cr2">
             <objects>
-                <viewController title="About" id="XhV-ST-lkQ" userLabel="Spring" sceneMemberID="viewController">
+                <viewController title="About" id="XhV-ST-lkQ" userLabel="Spring" customClass="ViewControllerSpring" customModule="CamMixes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kB9-DU-4Te"/>
                         <viewControllerLayoutGuide type="bottom" id="9WE-np-Rte"/>
@@ -809,6 +846,6 @@
         <image name="line black" width="1000" height="1"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xh0-ki-wzm"/>
+        <segue reference="kkI-RW-6fL"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5E88191C8F03C60034B973 /* ViewControllerSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */; };
 		DC83212A1C8DF0E200562CA7 /* ViewControllerAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */; };
 		DCCE684D1C874244009559FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE684C1C874244009559FF /* AppDelegate.swift */; };
 		DCCE684F1C874244009559FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE684E1C874244009559FF /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerSpring.swift; path = ../ViewControllerSpring.swift; sourceTree = "<group>"; };
 		DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAbout.swift; sourceTree = "<group>"; };
 		DCCE68491C874244009559FF /* CamMixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamMixes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCE684C1C874244009559FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DCCE684E1C874244009559FF /* ViewController.swift */,
 				DCCE68501C874244009559FF /* Main.storyboard */,
 				DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */,
+				DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */,
 				DCCE68531C874244009559FF /* Assets.xcassets */,
 				DCCE68551C874244009559FF /* LaunchScreen.storyboard */,
 				DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */,
@@ -173,6 +176,7 @@
 				DCCE684F1C874244009559FF /* ViewController.swift in Sources */,
 				DCCE684D1C874244009559FF /* AppDelegate.swift in Sources */,
 				DC83212A1C8DF0E200562CA7 /* ViewControllerAbout.swift in Sources */,
+				DC5E88191C8F03C60034B973 /* ViewControllerSpring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
