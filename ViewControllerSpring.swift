@@ -7,13 +7,40 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewControllerSpring: UIViewController {
+    
+    
+    
+    var musicPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        initAudio()
+        
+        
         // Do any additional setup after loading the view.
+    }
+    
+    
+    func initAudio() {
+        
+        let path = NSBundle.mainBundle().pathForResource("CamTymor1-Gwanwyn", ofType: "mp3")!
+        
+        do {
+            
+            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
+            musicPlayer.prepareToPlay()
+            musicPlayer.numberOfLoops = -1
+            
+            
+            
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,5 +64,20 @@ class ViewControllerSpring: UIViewController {
         return true
     }
 
+    @IBAction func springPlayPressed(sender: UIButton) {
+        
+        if musicPlayer.playing {
+            
+            musicPlayer.stop()
+            sender.alpha = 0.2
+            
+        } else {
+            musicPlayer.play()
+            sender.alpha = 1.0
+        }
+        }
+        
+        
+    }
 
-}
+
