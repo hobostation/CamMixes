@@ -47,7 +47,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9fo-PX-DSX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sW1-Dz-eE0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1250"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1130"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-Y3-XvZ" userLabel="Stack View Title">
@@ -74,7 +74,7 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Top Image" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-4K-2p1" userLabel="Top image">
-                                <rect key="frame" x="20" y="45" width="560" height="400"/>
+                                <rect key="frame" x="20" y="45" width="560" height="362"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="213" id="CMq-LW-rnD"/>
                                     <constraint firstAttribute="height" constant="213" id="K2b-aQ-qmD"/>
@@ -85,15 +85,18 @@
                                         <exclude reference="K2b-aQ-qmD"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="55" width="560" height="386"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-VV-lqR" userLabel="TopImageButton">
-                                <rect key="frame" x="20" y="45" width="560" height="400"/>
+                                <rect key="frame" x="20" y="45" width="560" height="362"/>
                                 <connections>
                                     <segue destination="I6S-iA-gnK" kind="show" id="Pdp-nR-6iU"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring image" translatesAutoresizingMaskIntoConstraints="NO" id="mr8-ny-VZm" userLabel="Spring View">
-                                <rect key="frame" x="20" y="458" width="276" height="325"/>
+                                <rect key="frame" x="20" y="420" width="276" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="xqJ-NT-xX9"/>
                                 </constraints>
@@ -102,15 +105,21 @@
                                         <exclude reference="xqJ-NT-xX9"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="454" width="273" height="293"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-bN-YSM" userLabel="SpringButton">
-                                <rect key="frame" x="20" y="458" width="276" height="324"/>
+                                <rect key="frame" x="20" y="420" width="276" height="292"/>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="454" width="279" height="325"/>
+                                </variation>
                                 <connections>
                                     <segue destination="XhV-ST-lkQ" kind="show" id="MLX-Cf-cob"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Autumn Image" translatesAutoresizingMaskIntoConstraints="NO" id="anm-9c-i0M" userLabel="Autumn View">
-                                <rect key="frame" x="20" y="797" width="276" height="325"/>
+                                <rect key="frame" x="20" y="727" width="276" height="294"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Kq9-Jf-D8l"/>
                                 </constraints>
@@ -119,12 +128,15 @@
                                         <exclude reference="Kq9-Jf-D8l"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="832" width="273" height="294"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1en-si-gzM" userLabel="autumnButton">
-                                <rect key="frame" x="20" y="797" width="276" height="325"/>
+                                <rect key="frame" x="20" y="727" width="276" height="275"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-hJ-CYK" userLabel="summerView">
-                                <rect key="frame" x="304" y="458" width="276" height="325"/>
+                                <rect key="frame" x="304" y="420" width="276" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Ey7-rY-dtM"/>
                                 </constraints>
@@ -133,12 +145,18 @@
                                         <exclude reference="Ey7-rY-dtM"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="313" y="454" width="273" height="293"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUo-TB-7cA" userLabel="summerButton">
-                                <rect key="frame" x="304" y="458" width="276" height="324"/>
+                                <rect key="frame" x="304" y="420" width="276" height="292"/>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="307" y="454" width="273" height="292"/>
+                                </variation>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-9v-XHJ" userLabel="winter View">
-                                <rect key="frame" x="304" y="797" width="276" height="325"/>
+                                <rect key="frame" x="304" y="727" width="276" height="294"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="1Xt-PO-pM9"/>
                                 </constraints>
@@ -147,9 +165,12 @@
                                         <exclude reference="1Xt-PO-pM9"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="307" y="761" width="273" height="294"/>
+                                </variation>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9nx-eq-jjY" userLabel="Stack ViewFooter">
-                                <rect key="frame" x="237" y="1231" width="127" height="12"/>
+                                <rect key="frame" x="237" y="1111" width="127" height="12"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi4-lh-Mtq">
                                         <rect key="frame" x="0.0" y="0.0" width="127" height="12"/>
@@ -287,6 +308,8 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
+                                <exclude reference="1en-si-gzM"/>
+                                <include reference="9nx-eq-jjY"/>
                                 <include reference="n9a-rt-A1x"/>
                             </mask>
                             <mask key="constraints">
@@ -508,9 +531,8 @@
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="10"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                        <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
-                                                            <rect key="frame" x="0.0" y="34" width="521" height="12"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
@@ -684,19 +706,6 @@
                                                     <constraint firstAttribute="width" constant="56" id="yfT-HT-D2D"/>
                                                 </constraints>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URE-oZ-j3X" userLabel="ButtonPlay">
-                                                <rect key="frame" x="20" y="321" width="45" height="45"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="45" id="4r1-Rx-tat">
-                                                        <variation key="heightClass=regular-widthClass=regular" constant="49"/>
-                                                    </constraint>
-                                                    <constraint firstAttribute="height" constant="45" id="gUv-bk-lBf"/>
-                                                </constraints>
-                                                <state key="normal" title="Button" image="play button"/>
-                                                <connections>
-                                                    <action selector="springPlayPressed:" destination="XhV-ST-lkQ" eventType="touchUpInside" id="ryM-yP-TNQ"/>
-                                                </connections>
-                                            </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Yg4-Ac-iH9" userLabel="Stack ViewArtist">
                                                 <rect key="frame" x="20" y="644" width="49" height="29"/>
                                                 <subviews>
@@ -834,6 +843,19 @@
                                                     <segue destination="LQh-e2-jpN" kind="show" id="xh0-ki-wzm"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URE-oZ-j3X" userLabel="ButtonPlay">
+                                                <rect key="frame" x="20" y="321" width="45" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="45" id="4r1-Rx-tat">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="49"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="height" constant="45" id="gUv-bk-lBf"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="play"/>
+                                                <connections>
+                                                    <action selector="springPlayPressed:" destination="XhV-ST-lkQ" eventType="touchUpInside" id="ryM-yP-TNQ"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -940,9 +962,9 @@
         <image name="about main image" width="895" height="422"/>
         <image name="back button" width="14" height="21"/>
         <image name="line black" width="1000" height="1"/>
-        <image name="play button" width="60" height="65"/>
+        <image name="play" width="60" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kkI-RW-6fL"/>
+        <segue reference="xh0-ki-wzm"/>
     </inferredMetricsTieBreakers>
 </document>

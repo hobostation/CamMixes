@@ -19,7 +19,11 @@ class ViewControllerSpring: UIViewController {
         super.viewDidLoad()
 
         
+        
+        
+        
         initAudio()
+        
         
         
         // Do any additional setup after loading the view.
@@ -69,15 +73,20 @@ class ViewControllerSpring: UIViewController {
         if musicPlayer.playing {
             
             musicPlayer.stop()
-            sender.alpha = 0.2
+           
+            // for normal state
+            sender.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
+            
             
         } else {
             musicPlayer.play()
-            sender.alpha = 1.0
+           
+            // for Highlighted state
+            sender.setImage(UIImage(named: "Pause.png"), forState: UIControlState.Normal)
         }
         }
-        
-        
+    
+    
     }
 
 
