@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-Y3-XvZ" userLabel="Stack View Title">
-                                <rect key="frame" x="271" y="15" width="55" height="25"/>
+                                <rect key="frame" x="271" y="10" width="55" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="api-aQ-L9O">
                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
@@ -98,7 +98,7 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Top Image" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-4K-2p1" userLabel="Top image">
-                                <rect key="frame" x="20" y="45" width="560" height="362"/>
+                                <rect key="frame" x="20" y="40" width="560" height="362"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="213" id="CMq-LW-rnD"/>
                                     <constraint firstAttribute="height" constant="213" id="K2b-aQ-qmD"/>
@@ -114,13 +114,13 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-VV-lqR" userLabel="TopImageButton">
-                                <rect key="frame" x="20" y="45" width="560" height="362"/>
+                                <rect key="frame" x="20" y="40" width="560" height="362"/>
                                 <connections>
                                     <segue destination="I6S-iA-gnK" kind="show" id="Pdp-nR-6iU"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring image" translatesAutoresizingMaskIntoConstraints="NO" id="mr8-ny-VZm" userLabel="Spring View">
-                                <rect key="frame" x="20" y="420" width="276" height="293"/>
+                                <rect key="frame" x="20" y="415" width="276" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="xqJ-NT-xX9"/>
                                 </constraints>
@@ -134,7 +134,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-bN-YSM" userLabel="SpringButton">
-                                <rect key="frame" x="20" y="415" width="276" height="297"/>
+                                <rect key="frame" x="20" y="410" width="276" height="297"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="276" id="QAr-be-JIR"/>
                                     <constraint firstAttribute="height" constant="297" id="cq8-3C-qT2"/>
@@ -153,7 +153,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Autumn Image" translatesAutoresizingMaskIntoConstraints="NO" id="anm-9c-i0M" userLabel="Autumn View">
-                                <rect key="frame" x="20" y="727" width="276" height="294"/>
+                                <rect key="frame" x="20" y="722" width="276" height="294"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Kq9-Jf-D8l"/>
                                 </constraints>
@@ -167,7 +167,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1en-si-gzM" userLabel="autumnButton">
-                                <rect key="frame" x="20" y="722" width="276" height="298"/>
+                                <rect key="frame" x="20" y="717" width="276" height="303"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="298" id="Lcj-Sy-uOK"/>
                                     <constraint firstAttribute="width" constant="276" id="vSJ-Cb-blE"/>
@@ -183,7 +183,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-hJ-CYK" userLabel="summerView">
-                                <rect key="frame" x="304" y="420" width="276" height="293"/>
+                                <rect key="frame" x="304" y="415" width="276" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Ey7-rY-dtM"/>
                                 </constraints>
@@ -197,7 +197,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUo-TB-7cA" userLabel="summerButton">
-                                <rect key="frame" x="304" y="415" width="276" height="297"/>
+                                <rect key="frame" x="304" y="410" width="276" height="297"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="276" id="Biu-Wc-sS1"/>
                                     <constraint firstAttribute="height" constant="297" id="Dgf-Jx-0CP"/>
@@ -216,7 +216,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-9v-XHJ" userLabel="winter View">
-                                <rect key="frame" x="304" y="727" width="276" height="294"/>
+                                <rect key="frame" x="304" y="722" width="276" height="294"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="1Xt-PO-pM9"/>
                                 </constraints>
@@ -241,7 +241,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9a-rt-A1x" userLabel="winterButton">
-                                <rect key="frame" x="304" y="722" width="276" height="298"/>
+                                <rect key="frame" x="304" y="717" width="276" height="303"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="298" id="OMm-5t-yMS"/>
                                     <constraint firstAttribute="width" constant="276" id="xH1-pf-ilF"/>
@@ -311,7 +311,7 @@
                             <constraint firstItem="9fo-PX-DSX" firstAttribute="top" secondItem="9nx-eq-jjY" secondAttribute="bottom" constant="30" id="Xtp-XX-J6o">
                                 <variation key="heightClass=regular-widthClass=regular" constant="22"/>
                             </constraint>
-                            <constraint firstItem="SOD-Y3-XvZ" firstAttribute="top" secondItem="sW1-Dz-eE0" secondAttribute="topMargin" constant="15" id="Yiv-Tg-T1x"/>
+                            <constraint firstItem="SOD-Y3-XvZ" firstAttribute="top" secondItem="sW1-Dz-eE0" secondAttribute="topMargin" constant="10" id="Yiv-Tg-T1x"/>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="leading" secondItem="1en-si-gzM" secondAttribute="trailing" constant="14" id="Z3v-2U-8OB"/>
                             <constraint firstItem="bWA-9v-XHJ" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="ZR2-UQ-HI1"/>
                             <constraint firstAttribute="trailing" secondItem="EUo-TB-7cA" secondAttribute="trailing" constant="20" id="a95-HU-bf7"/>
