@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class ViewControllerSpring: UIViewController {
     
     
@@ -22,6 +23,11 @@ class ViewControllerSpring: UIViewController {
         
         
         
+        
+        
+      
+        
+        
         initAudio()
         
         
@@ -29,6 +35,7 @@ class ViewControllerSpring: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+   
     
     func initAudio() {
         
