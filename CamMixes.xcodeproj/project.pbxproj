@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DC5E88191C8F03C60034B973 /* ViewControllerSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */; };
-		DC7E3A721C91AFAF00FF33D9 /* CamTymor2-Haf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A711C91AFAF00FF33D9 /* CamTymor2-Haf.mp3 */; };
+		DC71BB231C9866C100262B83 /* CamTymor1-Gwanwyn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB1F1C9866C100262B83 /* CamTymor1-Gwanwyn.mp3 */; };
+		DC71BB241C9866C100262B83 /* CamTymor2-Haf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB201C9866C100262B83 /* CamTymor2-Haf.mp3 */; };
+		DC71BB251C9866C100262B83 /* CamTymor3-Hydref.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB211C9866C100262B83 /* CamTymor3-Hydref.mp3 */; };
+		DC71BB261C9866C100262B83 /* CamTymor4-Gaeaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB221C9866C100262B83 /* CamTymor4-Gaeaf.mp3 */; };
 		DC7E3A751C91B02C00FF33D9 /* ViewControllerSummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */; };
 		DC7E3A761C91B02C00FF33D9 /* ViewControllerSummer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */; };
-		DC7E3A791C91BC0900FF33D9 /* CamTymor3-Hydref.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A771C91BC0900FF33D9 /* CamTymor3-Hydref.mp3 */; };
-		DC7E3A7A1C91BC0900FF33D9 /* CamTymor4-Gaeaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A781C91BC0900FF33D9 /* CamTymor4-Gaeaf.mp3 */; };
 		DC7E3A811C91BF9000FF33D9 /* ViewControllerAutumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */; };
 		DC7E3A821C91BF9000FF33D9 /* ViewControllerAutumn.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A801C91BF9000FF33D9 /* ViewControllerAutumn.xib */; };
 		DC7E3A851C91C2AE00FF33D9 /* ViewControllerWinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A831C91C2AE00FF33D9 /* ViewControllerWinter.swift */; };
@@ -28,16 +29,16 @@
 		DCCE68661C8747A1009559FF /* HighTideBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68611C8747A1009559FF /* HighTideBold.otf */; };
 		DCCE68671C8747A1009559FF /* HighTideSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68621C8747A1009559FF /* HighTideSans.otf */; };
 		DCCE68681C8747A1009559FF /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68631C8747A1009559FF /* MYRIADPRO-REGULAR.OTF */; };
-		DCCE686A1C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerSpring.swift; path = ../ViewControllerSpring.swift; sourceTree = "<group>"; };
-		DC7E3A711C91AFAF00FF33D9 /* CamTymor2-Haf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor2-Haf.mp3"; sourceTree = "<group>"; };
+		DC71BB1F1C9866C100262B83 /* CamTymor1-Gwanwyn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor1-Gwanwyn.mp3"; sourceTree = "<group>"; };
+		DC71BB201C9866C100262B83 /* CamTymor2-Haf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor2-Haf.mp3"; sourceTree = "<group>"; };
+		DC71BB211C9866C100262B83 /* CamTymor3-Hydref.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor3-Hydref.mp3"; sourceTree = "<group>"; };
+		DC71BB221C9866C100262B83 /* CamTymor4-Gaeaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor4-Gaeaf.mp3"; sourceTree = "<group>"; };
 		DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSummer.swift; sourceTree = "<group>"; };
 		DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerSummer.xib; sourceTree = "<group>"; };
-		DC7E3A771C91BC0900FF33D9 /* CamTymor3-Hydref.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor3-Hydref.mp3"; sourceTree = "<group>"; };
-		DC7E3A781C91BC0900FF33D9 /* CamTymor4-Gaeaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor4-Gaeaf.mp3"; sourceTree = "<group>"; };
 		DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAutumn.swift; sourceTree = "<group>"; };
 		DC7E3A801C91BF9000FF33D9 /* ViewControllerAutumn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerAutumn.xib; sourceTree = "<group>"; };
 		DC7E3A831C91C2AE00FF33D9 /* ViewControllerWinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWinter.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		DCCE68611C8747A1009559FF /* HighTideBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTideBold.otf; sourceTree = "<group>"; };
 		DCCE68621C8747A1009559FF /* HighTideSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTideSans.otf; sourceTree = "<group>"; };
 		DCCE68631C8747A1009559FF /* MYRIADPRO-REGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYRIADPRO-REGULAR.OTF"; sourceTree = "<group>"; };
-		DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CamTymor1-Gwanwyn.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC71BB1E1C9846FC00262B83 /* Mixes */ = {
+			isa = PBXGroup;
+			children = (
+				DC71BB1F1C9866C100262B83 /* CamTymor1-Gwanwyn.mp3 */,
+				DC71BB201C9866C100262B83 /* CamTymor2-Haf.mp3 */,
+				DC71BB211C9866C100262B83 /* CamTymor3-Hydref.mp3 */,
+				DC71BB221C9866C100262B83 /* CamTymor4-Gaeaf.mp3 */,
+			);
+			name = Mixes;
+			sourceTree = "<group>";
+		};
 		DCCE68401C874244009559FF = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +112,7 @@
 				DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */,
 				DCCE68531C874244009559FF /* Assets.xcassets */,
 				DCCE68551C874244009559FF /* LaunchScreen.storyboard */,
-				DCCE68691C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 */,
-				DC7E3A711C91AFAF00FF33D9 /* CamTymor2-Haf.mp3 */,
-				DC7E3A771C91BC0900FF33D9 /* CamTymor3-Hydref.mp3 */,
-				DC7E3A781C91BC0900FF33D9 /* CamTymor4-Gaeaf.mp3 */,
+				DC71BB1E1C9846FC00262B83 /* Mixes */,
 				DCCE68581C874244009559FF /* Info.plist */,
 				DCCE685E1C8746BA009559FF /* Fonts */,
 			);
@@ -192,17 +200,17 @@
 			files = (
 				DCCE68571C874244009559FF /* LaunchScreen.storyboard in Resources */,
 				DC7E3A821C91BF9000FF33D9 /* ViewControllerAutumn.xib in Resources */,
-				DC7E3A7A1C91BC0900FF33D9 /* CamTymor4-Gaeaf.mp3 in Resources */,
-				DC7E3A721C91AFAF00FF33D9 /* CamTymor2-Haf.mp3 in Resources */,
 				DCCE68541C874244009559FF /* Assets.xcassets in Resources */,
 				DC7E3A861C91C2AE00FF33D9 /* ViewControllerWinter.xib in Resources */,
 				DC7E3A761C91B02C00FF33D9 /* ViewControllerSummer.xib in Resources */,
-				DCCE686A1C874AA6009559FF /* CamTymor1-Gwanwyn.mp3 in Resources */,
+				DC71BB261C9866C100262B83 /* CamTymor4-Gaeaf.mp3 in Resources */,
 				DCCE68681C8747A1009559FF /* MYRIADPRO-REGULAR.OTF in Resources */,
+				DC71BB251C9866C100262B83 /* CamTymor3-Hydref.mp3 in Resources */,
 				DCCE68671C8747A1009559FF /* HighTideSans.otf in Resources */,
 				DCCE68661C8747A1009559FF /* HighTideBold.otf in Resources */,
-				DC7E3A791C91BC0900FF33D9 /* CamTymor3-Hydref.mp3 in Resources */,
+				DC71BB231C9866C100262B83 /* CamTymor1-Gwanwyn.mp3 in Resources */,
 				DCCE68641C8747A1009559FF /* HelveticaNeue.dfont in Resources */,
+				DC71BB241C9866C100262B83 /* CamTymor2-Haf.mp3 in Resources */,
 				DCCE68521C874244009559FF /* Main.storyboard in Resources */,
 				DCCE68651C8747A1009559FF /* HighTide.otf in Resources */,
 			);

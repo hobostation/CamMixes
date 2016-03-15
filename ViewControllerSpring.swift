@@ -15,10 +15,15 @@ class ViewControllerSpring: UIViewController {
     
     
     var musicPlayer: AVAudioPlayer!
+    var Mixes = ["CamTymor1-Gwanwyn", "CamTymor1-Haf", "CamTymor1-Hydref", "CamTymor1-Gaeaf"]
+   
+    
+        //var song = ["CamTymor1-Gwanwyn","CamTymor2-Haf","CamTymor3-Hydref"]
+    //var counter = 1
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         
         
@@ -39,20 +44,49 @@ class ViewControllerSpring: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor1-Gwanwyn", ofType: "mp3")!
+        let randomNumber = Int(arc4random_uniform(UInt32(Mixes.count)))
+        
+        let fileLocation = NSBundle.mainBundle().pathForResource(Mixes[randomNumber], ofType: "mp3")
+        
+        
         
         do {
+        
+            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: fileLocation!))
             
-            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
+           
             musicPlayer.prepareToPlay()
             musicPlayer.numberOfLoops = -1
+                       
             
-            
-            
-        } catch let err as NSError {
+        }
+        
+        
+        catch let err as NSError {
             print(err.debugDescription)
         }
-    }
+        
+        
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
+        }
+        
+        
+ }
+        
+       
+        
+        
+    
+
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -75,22 +109,27 @@ class ViewControllerSpring: UIViewController {
     }
     
     
+    
+    
+    
     @IBAction func springPlayPressed(sender: UIButton) {
         
         if musicPlayer.playing {
             
             musicPlayer.stop()
-            
+              
             
             // for normal state
             sender.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
             
             
         } else {
+            
             musicPlayer.play()
+           
             
+           
             
-             
             // for Highlighted state
             sender.setImage(UIImage(named: "Pause.png"), forState: UIControlState.Normal)
         }
@@ -99,5 +138,3 @@ class ViewControllerSpring: UIViewController {
     
     
 }
-
-
