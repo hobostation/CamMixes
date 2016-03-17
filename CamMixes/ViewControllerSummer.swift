@@ -10,11 +10,14 @@ import UIKit
 import AVFoundation
 
 
+
+
 class ViewControllerSummer: UIViewController {
     
     
     
-    var musicPlayerSummer: AVAudioPlayer = AVAudioPlayer()
+    var musicPlayerSummer: AVAudioPlayer!
+     var mySongs = ["1", "2", "3", "4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +42,7 @@ class ViewControllerSummer: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor2-Haf", ofType: "mp3")!
+        let path = NSBundle.mainBundle().pathForResource(mySongs[1], ofType: "mp3")!
         
         do {
             
