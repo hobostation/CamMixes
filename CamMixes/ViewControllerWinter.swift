@@ -15,6 +15,8 @@ class ViewControllerWinter: UIViewController {
     
     
     var musicPlayer: AVAudioPlayer!
+     var mySongs = ["1", "2", "3", "4"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +41,7 @@ class ViewControllerWinter: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor4-Gaeaf", ofType: "mp3")!
+        let path = NSBundle.mainBundle().pathForResource(mySongs[3], ofType: "mp3")!
         
         do {
             
@@ -86,6 +88,7 @@ class ViewControllerWinter: UIViewController {
             
             
         } else {
+            
             musicPlayer.play()
             
             // for Highlighted state

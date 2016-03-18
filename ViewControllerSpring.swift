@@ -18,25 +18,17 @@ class ViewControllerSpring: UIViewController {
     var musicPlayer: AVAudioPlayer!
     var mySongs = ["1", "2", "3", "4"]
    
-    var musicPlayerSummer: AVAudioPlayer!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        
-        
-        
-        
         initAudio()
         
         
-        
-        
-        
         // Do any additional setup after loading the view.
-    }
+}
     
     
     
@@ -55,38 +47,26 @@ class ViewControllerSpring: UIViewController {
             
             
         } catch let err as NSError {
-            print(err.debugDescription)
+           print(err.debugDescription)
+       
+        
+        }
+        
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
         }
 
         
-        
-        
-        
-    }
+}
     
    
-        
-
-
-        
-        
-        //let session:AVAudioSession = AVAudioSession.sharedInstance()
-        
-        //do {
-            //try session.setCategory(AVAudioSessionCategoryPlayback)
-        //} catch {
-            //catching the error.
-       //}
-        
-        
-    
-        
-       
-        
-        
-    
-
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -109,7 +89,8 @@ class ViewControllerSpring: UIViewController {
     }
     
     
-    
+   
+
     
     
     @IBAction func springPlayPressed(sender: UIButton) {
@@ -137,8 +118,5 @@ class ViewControllerSpring: UIViewController {
     }
     
     
-    
-    
-    
-    
+
 }

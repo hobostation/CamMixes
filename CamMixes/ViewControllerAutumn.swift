@@ -16,7 +16,8 @@ class ViewControllerAutumn: UIViewController {
     
     
     var musicPlayer: AVAudioPlayer!
-    
+    var mySongs = ["1", "2", "3", "4"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,7 +41,7 @@ class ViewControllerAutumn: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor3-Hydref", ofType: "mp3")!
+        let path = NSBundle.mainBundle().pathForResource(mySongs[2], ofType: "mp3")!
         
         do {
             
