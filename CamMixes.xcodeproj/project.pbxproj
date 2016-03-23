@@ -13,7 +13,7 @@
 		DC71BB251C9866C100262B83 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB211C9866C100262B83 /* 3.mp3 */; };
 		DC71BB261C9866C100262B83 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB221C9866C100262B83 /* 4.mp3 */; };
 		DC71BB271C986C9600262B83 /* ViewControllerAutumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */; };
-		DC7D9DC21C9C287700560F79 /* MyAudioLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D9DC11C9C287700560F79 /* MyAudioLibrary.swift */; };
+		DC7D9DC21C9C287700560F79 /* audioCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D9DC11C9C287700560F79 /* audioCode.swift */; };
 		DC7E3A751C91B02C00FF33D9 /* ViewControllerSummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */; };
 		DC7E3A761C91B02C00FF33D9 /* ViewControllerSummer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */; };
 		DC7E3A821C91BF9000FF33D9 /* ViewControllerAutumn.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A801C91BF9000FF33D9 /* ViewControllerAutumn.xib */; };
@@ -38,7 +38,7 @@
 		DC71BB201C9866C100262B83 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = CamMixes/2.mp3; sourceTree = "<group>"; };
 		DC71BB211C9866C100262B83 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = CamMixes/3.mp3; sourceTree = "<group>"; };
 		DC71BB221C9866C100262B83 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = CamMixes/4.mp3; sourceTree = "<group>"; };
-		DC7D9DC11C9C287700560F79 /* MyAudioLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAudioLibrary.swift; sourceTree = "<group>"; };
+		DC7D9DC11C9C287700560F79 /* audioCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = audioCode.swift; sourceTree = "<group>"; };
 		DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSummer.swift; sourceTree = "<group>"; };
 		DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerSummer.xib; sourceTree = "<group>"; };
 		DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAutumn.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				DC8321291C8DF0E200562CA7 /* ViewControllerAbout.swift */,
 				DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */,
 				DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */,
-				DC7D9DC11C9C287700560F79 /* MyAudioLibrary.swift */,
+				DC7D9DC11C9C287700560F79 /* audioCode.swift */,
 				DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */,
 				DCCE68531C874244009559FF /* Assets.xcassets */,
 				DCCE68551C874244009559FF /* LaunchScreen.storyboard */,
@@ -232,7 +232,7 @@
 				DC7E3A751C91B02C00FF33D9 /* ViewControllerSummer.swift in Sources */,
 				DCCE684D1C874244009559FF /* AppDelegate.swift in Sources */,
 				DC83212A1C8DF0E200562CA7 /* ViewControllerAbout.swift in Sources */,
-				DC7D9DC21C9C287700560F79 /* MyAudioLibrary.swift in Sources */,
+				DC7D9DC21C9C287700560F79 /* audioCode.swift in Sources */,
 				DC5E88191C8F03C60034B973 /* ViewControllerSpring.swift in Sources */,
 				DC71BB271C986C9600262B83 /* ViewControllerAutumn.swift in Sources */,
 			);
