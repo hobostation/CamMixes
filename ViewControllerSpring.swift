@@ -11,30 +11,35 @@ import AVFoundation
 
 
 
-class ViewControllerSpring: UIViewController {
+class ViewControllerSpring: UIViewController  {
     
 
     
     var musicPlayer: AVAudioPlayer!
     var mySongs = ["1", "2", "3", "4"]
-   
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
+        
+        
+        
+        
+        
+        
+        
         initAudio()
+       
+        
         
         
         // Do any additional setup after loading the view.
-}
+    }
     
     
     
     func initAudio() {
-        
-     
         
         let path = NSBundle.mainBundle().pathForResource(mySongs[0], ofType: "mp3")!
         
@@ -47,13 +52,8 @@ class ViewControllerSpring: UIViewController {
             
             
         } catch let err as NSError {
-           print(err.debugDescription)
-       
-        
+            print(err.debugDescription)
         }
-        
-        
-        
         
         let session:AVAudioSession = AVAudioSession.sharedInstance()
         
@@ -62,11 +62,16 @@ class ViewControllerSpring: UIViewController {
         } catch {
             //catching the error.
         }
-
         
-}
+        
+        
+        
+    }
     
-   
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -89,8 +94,6 @@ class ViewControllerSpring: UIViewController {
     }
     
     
-   
-
     
     
     @IBAction func springPlayPressed(sender: UIButton) {
@@ -99,18 +102,12 @@ class ViewControllerSpring: UIViewController {
             
             musicPlayer.stop()
             
-            
             // for normal state
             sender.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
             
             
         } else {
-            
             musicPlayer.play()
-           
-           
-
-           
             
             // for Highlighted state
             sender.setImage(UIImage(named: "Pause.png"), forState: UIControlState.Normal)
@@ -118,5 +115,6 @@ class ViewControllerSpring: UIViewController {
     }
     
     
-
+    
+    
 }

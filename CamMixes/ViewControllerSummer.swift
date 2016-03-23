@@ -16,7 +16,7 @@ class ViewControllerSummer: UIViewController {
     
     
     
-    var musicPlayer: AVAudioPlayer!
+    var musicPlayerSummer: AVAudioPlayer!
      var mySongs = ["1", "2", "3", "4"]
     
     override func viewDidLoad() {
@@ -46,9 +46,9 @@ class ViewControllerSummer: UIViewController {
         
         do {
             
-            musicPlayer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
-            musicPlayer.prepareToPlay()
-            musicPlayer.numberOfLoops = -1
+            musicPlayerSummer = try AVAudioPlayer(contentsOfURL: NSURL(string: path)!)
+            musicPlayerSummer.prepareToPlay()
+            musicPlayerSummer.numberOfLoops = -1
             
             
             
@@ -80,9 +80,9 @@ class ViewControllerSummer: UIViewController {
    
     @IBAction func summerPlayPressed(sender: UIButton) {
         
-        if musicPlayer.playing {
+        if musicPlayerSummer.playing {
             
-            musicPlayer.stop()
+            musicPlayerSummer.stop()
             
             // for normal state
             sender.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
@@ -90,7 +90,7 @@ class ViewControllerSummer: UIViewController {
             
         } else {
             
-            musicPlayer.play()
+            musicPlayerSummer.play()
             
             // for Highlighted state
             sender.setImage(UIImage(named: "Pause.png"), forState: UIControlState.Normal)
