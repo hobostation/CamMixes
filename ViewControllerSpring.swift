@@ -23,6 +23,7 @@ class ViewControllerSpring: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
         
         initAudio()
         
@@ -89,8 +90,13 @@ class ViewControllerSpring: UIViewController {
     }
     
     
-   
+    
 
+    override func viewDidDisappear(animated: Bool) {
+       musicPlayer.stop()
+    }
+
+   
     
     
     @IBAction func springPlayPressed(sender: UIButton) {

@@ -55,6 +55,17 @@ class ViewControllerSummer: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
+        }
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -75,6 +86,11 @@ class ViewControllerSummer: UIViewController {
     
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    
+    override func viewDidDisappear(animated: Bool) {
+        musicPlayer.stop()
     }
 
    

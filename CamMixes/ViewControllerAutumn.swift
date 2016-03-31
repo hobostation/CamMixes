@@ -54,6 +54,18 @@ class ViewControllerAutumn: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
+        }
+        
+        
     }
     
     
@@ -79,6 +91,11 @@ class ViewControllerAutumn: UIViewController {
     
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    
+    override func viewDidDisappear(animated: Bool) {
+        musicPlayer.stop()
     }
     
     
