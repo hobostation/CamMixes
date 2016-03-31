@@ -10,12 +10,14 @@ import UIKit
 import AVFoundation
 
 
+
 class ViewControllerAutumn: UIViewController {
     
     
     
     var musicPlayer: AVAudioPlayer!
-    
+    var mySongs = ["1", "2", "3", "4"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,7 +41,7 @@ class ViewControllerAutumn: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor3-Hydref", ofType: "mp3")!
+        let path = NSBundle.mainBundle().pathForResource(mySongs[2], ofType: "mp3")!
         
         do {
             
@@ -52,7 +54,24 @@ class ViewControllerAutumn: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
+        }
+        
+        
     }
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -72,6 +91,11 @@ class ViewControllerAutumn: UIViewController {
     
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    
+    override func viewDidDisappear(animated: Bool) {
+        musicPlayer.stop()
     }
     
     

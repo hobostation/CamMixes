@@ -10,36 +10,34 @@ import UIKit
 import AVFoundation
 
 
+
 class ViewControllerSpring: UIViewController {
     
-    
+
     
     var musicPlayer: AVAudioPlayer!
+    var mySongs = ["1", "2", "3", "4"]
+   
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        
-        
-        
-        
-        
-        
+       
         
         initAudio()
         
         
-        
         // Do any additional setup after loading the view.
-    }
+}
     
     
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor1-Gwanwyn", ofType: "mp3")!
+     
+        
+        let path = NSBundle.mainBundle().pathForResource(mySongs[0], ofType: "mp3")!
         
         do {
             
@@ -50,9 +48,26 @@ class ViewControllerSpring: UIViewController {
             
             
         } catch let err as NSError {
-            print(err.debugDescription)
+           print(err.debugDescription)
+       
+        
         }
-    }
+        
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
+        }
+
+        
+}
+    
+   
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -75,6 +90,15 @@ class ViewControllerSpring: UIViewController {
     }
     
     
+    
+
+    override func viewDidDisappear(animated: Bool) {
+       musicPlayer.stop()
+    }
+
+   
+    
+    
     @IBAction func springPlayPressed(sender: UIButton) {
         
         if musicPlayer.playing {
@@ -87,17 +111,18 @@ class ViewControllerSpring: UIViewController {
             
             
         } else {
+            
             musicPlayer.play()
+           
+           
+
+           
             
-            
-             
             // for Highlighted state
             sender.setImage(UIImage(named: "Pause.png"), forState: UIControlState.Normal)
         }
     }
     
     
-    
+
 }
-
-

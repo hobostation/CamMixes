@@ -15,6 +15,8 @@ class ViewControllerWinter: UIViewController {
     
     
     var musicPlayer: AVAudioPlayer!
+     var mySongs = ["1", "2", "3", "4"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +41,7 @@ class ViewControllerWinter: UIViewController {
     
     func initAudio() {
         
-        let path = NSBundle.mainBundle().pathForResource("CamTymor4-Gaeaf", ofType: "mp3")!
+        let path = NSBundle.mainBundle().pathForResource(mySongs[3], ofType: "mp3")!
         
         do {
             
@@ -51,6 +53,16 @@ class ViewControllerWinter: UIViewController {
             
         } catch let err as NSError {
             print(err.debugDescription)
+        }
+        
+        
+        
+        let session:AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //catching the error.
         }
     }
     
@@ -74,6 +86,11 @@ class ViewControllerWinter: UIViewController {
         return true
     }
     
+    
+    override func viewDidDisappear(animated: Bool) {
+        musicPlayer.stop()
+    }
+    
    
     @IBAction func winterPlayPressed(sender: UIButton) {
         
@@ -86,6 +103,7 @@ class ViewControllerWinter: UIViewController {
             
             
         } else {
+            
             musicPlayer.play()
             
             // for Highlighted state
