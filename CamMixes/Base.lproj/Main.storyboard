@@ -71,22 +71,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-Y3-XvZ" userLabel="Stack View Title">
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOD-Y3-XvZ" userLabel="Stack View Title">
                                 <rect key="frame" x="271" y="10" width="55" height="25"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="api-aQ-L9O">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="api-aQ-L9O">
                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ra-yG-MgH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ra-yG-MgH">
                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWw-Rp-PT5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWw-Rp-PT5">
                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -95,7 +95,7 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Top Image" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-4K-2p1" userLabel="Top image">
-                                <rect key="frame" x="20" y="40" width="560" height="256"/>
+                                <rect key="frame" x="20" y="39" width="560" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="213" id="CMq-LW-rnD"/>
                                     <constraint firstAttribute="height" constant="213" id="K2b-aQ-qmD"/>
@@ -108,13 +108,13 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-VV-lqR" userLabel="TopImageButton">
-                                <rect key="frame" x="20" y="40" width="560" height="256"/>
+                                <rect key="frame" x="20" y="39" width="560" height="256"/>
                                 <connections>
                                     <segue destination="I6S-iA-gnK" kind="show" id="Pdp-nR-6iU"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring image" translatesAutoresizingMaskIntoConstraints="NO" id="mr8-ny-VZm" userLabel="Spring View">
-                                <rect key="frame" x="20" y="309" width="276" height="208"/>
+                                <rect key="frame" x="20" y="308" width="276" height="208"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="xqJ-NT-xX9"/>
                                 </constraints>
@@ -125,7 +125,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-bN-YSM" userLabel="SpringButton">
-                                <rect key="frame" x="20" y="309" width="276" height="207"/>
+                                <rect key="frame" x="20" y="308" width="276" height="207"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="276" id="QAr-be-JIR"/>
                                     <constraint firstAttribute="height" constant="297" id="cq8-3C-qT2"/>
@@ -141,7 +141,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Autumn Image" translatesAutoresizingMaskIntoConstraints="NO" id="anm-9c-i0M" userLabel="Autumn View">
-                                <rect key="frame" x="20" y="531" width="276" height="208"/>
+                                <rect key="frame" x="20" y="530" width="276" height="208"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Kq9-Jf-D8l"/>
                                 </constraints>
@@ -152,7 +152,7 @@
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-hJ-CYK" userLabel="summerView">
-                                <rect key="frame" x="304" y="309" width="276" height="208"/>
+                                <rect key="frame" x="304" y="308" width="276" height="208"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="Ey7-rY-dtM"/>
                                 </constraints>
@@ -163,7 +163,7 @@
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-9v-XHJ" userLabel="winter View">
-                                <rect key="frame" x="304" y="531" width="276" height="208"/>
+                                <rect key="frame" x="304" y="530" width="276" height="208"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="1Xt-PO-pM9"/>
                                 </constraints>
@@ -174,7 +174,7 @@
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9a-rt-A1x" userLabel="winterButton">
-                                <rect key="frame" x="304" y="531" width="276" height="208"/>
+                                <rect key="frame" x="304" y="530" width="276" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="298" id="OMm-5t-yMS"/>
                                     <constraint firstAttribute="width" constant="276" id="xH1-pf-ilF"/>
@@ -202,13 +202,13 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLv-Bp-6TZ" userLabel="autumButton">
-                                <rect key="frame" x="20" y="531" width="276" height="208"/>
+                                <rect key="frame" x="20" y="530" width="276" height="209"/>
                                 <connections>
                                     <segue destination="ABB-vi-Eak" kind="show" id="60d-gR-Tmn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUo-TB-7cA" userLabel="summerButton">
-                                <rect key="frame" x="304" y="309" width="276" height="209"/>
+                                <rect key="frame" x="304" y="308" width="276" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="209" id="27o-4z-Cwp">
                                         <variation key="heightClass=regular-widthClass=regular" constant="207"/>
@@ -239,6 +239,7 @@
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="3ae-Hv-Jzz">
                                 <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
+                            <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="mr8-ny-VZm" secondAttribute="trailing" constant="8" id="51f-bQ-jHm"/>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="57O-Z5-kYS"/>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="leading" secondItem="R5J-4K-2p1" secondAttribute="leading" id="59q-qX-3hv"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="6Do-Ph-2rS"/>
@@ -249,9 +250,11 @@
                                 <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
                             <constraint firstItem="mr8-ny-VZm" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="8qq-c4-SxL"/>
-                            <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="bgF-bN-YSM" secondAttribute="trailing" constant="8" id="Agg-V9-lP1"/>
+                            <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="bgF-bN-YSM" secondAttribute="trailing" constant="8" id="Agg-V9-lP1">
+                                <variation key="heightClass=regular-widthClass=regular" constant="8"/>
+                            </constraint>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="bgF-bN-YSM" secondAttribute="trailing" constant="14" id="DGs-Uv-uW3"/>
-                            <constraint firstItem="R5J-4K-2p1" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="5" id="DSh-XJ-Qmt">
+                            <constraint firstItem="R5J-4K-2p1" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="4" id="DSh-XJ-Qmt">
                                 <variation key="heightClass=regular-widthClass=regular" constant="20"/>
                             </constraint>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="width" secondItem="RvP-hJ-CYK" secondAttribute="width" multiplier="2" constant="8" id="E02-s9-J5g">
@@ -262,7 +265,7 @@
                             </constraint>
                             <constraint firstItem="mr8-ny-VZm" firstAttribute="leading" secondItem="R5J-4K-2p1" secondAttribute="leading" id="FnG-Mz-yaD"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="FzA-5p-FXs">
-                                <variation key="heightClass=regular-widthClass=regular" constant="1"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="n9a-rt-A1x" secondAttribute="bottom" constant="42" id="Gcq-S2-sVV"/>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="20" id="Gqd-tf-ARt"/>
@@ -270,7 +273,7 @@
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="H3F-0g-aT3"/>
                             <constraint firstItem="RLv-Bp-6TZ" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leadingMargin" id="HPJ-fJ-tnp"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="R5J-4K-2p1" secondAttribute="bottom" constant="13" id="J99-1o-Y7z">
-                                <variation key="heightClass=regular-widthClass=regular" constant="14"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="leading" secondItem="RLv-Bp-6TZ" secondAttribute="trailing" constant="8" id="JoE-8C-JAV"/>
                             <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="n9a-rt-A1x" secondAttribute="bottom" constant="95" id="Jow-np-t1c"/>
@@ -303,7 +306,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" constant="293"/>
                             </constraint>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="top" secondItem="EUo-TB-7cA" secondAttribute="bottom" constant="15" id="WhY-sf-Jer">
-                                <variation key="heightClass=regular-widthClass=regular" constant="14"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="XEh-IS-RW2"/>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="top" secondItem="mr8-ny-VZm" secondAttribute="bottom" constant="14" id="XHk-yd-BHL"/>
@@ -326,12 +329,12 @@
                                 <variation key="heightClass=regular-widthClass=regular" constant="14"/>
                             </constraint>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="R5J-4K-2p1" secondAttribute="top" constant="269" id="cWt-KC-Ers"/>
-                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="5" id="cuz-OS-TdM"/>
+                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="4" id="cuz-OS-TdM"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="leading" secondItem="bgF-bN-YSM" secondAttribute="trailing" constant="8" id="dFb-fe-ysN"/>
                             <constraint firstItem="9fo-PX-DSX" firstAttribute="top" secondItem="9nx-eq-jjY" secondAttribute="bottom" constant="7" id="dHP-Zk-CCe">
                                 <variation key="heightClass=regular-widthClass=regular" constant="16"/>
                             </constraint>
-                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="5" id="dK8-L6-92D"/>
+                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="4" id="dK8-L6-92D"/>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leadingMargin" id="dzX-vs-nFW"/>
                             <constraint firstAttribute="trailing" secondItem="Vbq-VV-lqR" secondAttribute="trailing" constant="20" id="eQE-Q9-AlP"/>
                             <constraint firstItem="R5J-4K-2p1" firstAttribute="width" secondItem="anm-9c-i0M" secondAttribute="width" multiplier="2" constant="8" id="efm-gq-ZRh">
@@ -355,12 +358,14 @@
                             </constraint>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="R5J-4K-2p1" secondAttribute="bottom" constant="13" id="irg-81-6ss"/>
                             <constraint firstItem="bgF-bN-YSM" firstAttribute="leading" secondItem="sW1-Dz-eE0" secondAttribute="leadingMargin" id="ism-tu-NzF"/>
-                            <constraint firstItem="RLv-Bp-6TZ" firstAttribute="top" secondItem="bgF-bN-YSM" secondAttribute="bottom" constant="14" id="iyw-Ba-8VZ"/>
+                            <constraint firstItem="RLv-Bp-6TZ" firstAttribute="top" secondItem="bgF-bN-YSM" secondAttribute="bottom" constant="14" id="iyw-Ba-8VZ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                            </constraint>
                             <constraint firstItem="9nx-eq-jjY" firstAttribute="top" secondItem="n9a-rt-A1x" secondAttribute="bottom" constant="3" id="kc9-8S-GQv">
                                 <variation key="heightClass=regular-widthClass=regular" constant="-7"/>
                             </constraint>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="low-ga-Ns0">
-                                <variation key="heightClass=regular-widthClass=regular" constant="14"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                             </constraint>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" id="lzi-Sl-b8N"/>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="height" secondItem="sW1-Dz-eE0" secondAttribute="height" multiplier="0.26" id="m2T-8t-FS8"/>
@@ -402,6 +407,7 @@
                                 <exclude reference="ak2-G1-K4s"/>
                                 <exclude reference="ocr-zA-Lhc"/>
                                 <exclude reference="3ae-Hv-Jzz"/>
+                                <exclude reference="51f-bQ-jHm"/>
                                 <exclude reference="6Do-Ph-2rS"/>
                                 <exclude reference="6ld-4O-jOB"/>
                                 <exclude reference="Agg-V9-lP1"/>
@@ -458,6 +464,7 @@
                                 <include reference="ak2-G1-K4s"/>
                                 <exclude reference="ocr-zA-Lhc"/>
                                 <exclude reference="3ae-Hv-Jzz"/>
+                                <include reference="51f-bQ-jHm"/>
                                 <exclude reference="6Do-Ph-2rS"/>
                                 <exclude reference="6ld-4O-jOB"/>
                                 <include reference="Agg-V9-lP1"/>
@@ -525,19 +532,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnP-nD-ncK" userLabel="Stack View Title">
                                                 <rect key="frame" x="273" y="14" width="55" height="25"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRG-37-jgf">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRG-37-jgf">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgt-zf-ZiN">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgt-zf-ZiN">
                                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs2-Jw-eBb">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs2-Jw-eBb">
                                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -580,10 +587,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="fE2-Ck-x7M"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vTA-yo-CrH" userLabel="Stack ViewBodyText">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vTA-yo-CrH" userLabel="Stack ViewBodyText">
                                                 <rect key="frame" x="20" y="389" width="560" height="79"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys4-Yd-713">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys4-Yd-713">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">Mae CAM yn blatfform aml-gyfrwng wedi’i leoli yng Nghaerdydd sy’n gweithredu fel rhaglen radio cerddoriaeth arbrofol o Chymru a thu hwnt o’r enw ‘Cam o’r Tywyllwch’. Darlledir y rhaglen ar Radio Cardiff ac yn achlysurol ar Resonance FM – gallwch ddod o hyd i’r archif radio ynghyd â sinema arlein ar ein gwefan: cam.cymru</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -593,7 +600,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="13"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAe-D1-IHE">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAe-D1-IHE">
                                                         <rect key="frame" x="0.0" y="43" width="560" height="36"/>
                                                         <string key="text">Rydym hefyd yn cyhoeddi cylchgrawn digidol (gellir ei lawrlwytho am ddim drwy siop iTunes drwy chwilio am ‘Cylchgrawn CAM’), yn ogystal â chynnal gŵyl gerddoriaeth arbrofol flynyddol – mae rhagor o wybodaeth ar wefan yr ŵyl: gwylcam.cymru </string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -606,10 +613,10 @@
                                                 </subviews>
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-Mt-Pxt" userLabel="Stack ViewBodyTextEng">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-Mt-Pxt" userLabel="Stack ViewBodyTextEng">
                                                 <rect key="frame" x="20" y="536" width="560" height="79"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e36-BF-wRo">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e36-BF-wRo">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">CAM is a multi-media platform based in Cardiff that operates as an experimental music radio show called ‘Cam o’r Tywyllwch’. The programme is broadcasted on Radio Cardiff and occasionally Resonance FM – archive shows can be found at our website which is also home to our online cinema: cam.wales </string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -619,7 +626,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="13"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltp-jv-3zj">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltp-jv-3zj">
                                                         <rect key="frame" x="0.0" y="43" width="560" height="36"/>
                                                         <string key="text">We also publish a digital magazine (which can be downloaded for free via the iTunes store if you search for ‘Cychgrawn CAM Magazine’), as well as hosting an annual festival of experimental music – more info can be found at our festival micro-site: camfestival.wales</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -632,10 +639,10 @@
                                                 </subviews>
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ICJ-8M-kJt" userLabel="Stack View - company text">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ICJ-8M-kJt" userLabel="Stack View - company text">
                                                 <rect key="frame" x="40" y="676" width="521" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py2-aK-D7M">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py2-aK-D7M">
                                                         <rect key="frame" x="0.0" y="0.0" width="521" height="20"/>
                                                         <string key="text">Datblygwyd yr ap yma gan Peski / Hobostation gyda chefnogaeth gan Lywodraeth Cymru.
 </string>
@@ -646,7 +653,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="/ This App was developed by Peski /Hobostation with support from the Welsh Government. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMR-Pa-C2D">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/ This App was developed by Peski /Hobostation with support from the Welsh Government. " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMR-Pa-C2D">
                                                         <rect key="frame" x="0.0" y="30" width="521" height="10"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="10"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -668,7 +675,7 @@
                                                 </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R0g-za-mTJ" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="736" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="730" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1p-AO-RTc">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -719,7 +726,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Sfz-kH-5o7" secondAttribute="trailing" constant="20" id="2Ez-Zk-YYT"/>
-                                            <constraint firstItem="R0g-za-mTJ" firstAttribute="top" secondItem="ICJ-8M-kJt" secondAttribute="bottom" constant="20" id="3Xd-JG-Sfi">
+                                            <constraint firstItem="R0g-za-mTJ" firstAttribute="top" secondItem="ICJ-8M-kJt" secondAttribute="bottom" constant="14" id="3Xd-JG-Sfi">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="23"/>
                                             </constraint>
                                             <constraint firstItem="vTA-yo-CrH" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="3nK-2I-FVS"/>
@@ -802,19 +809,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eg6-09-Jah" userLabel="Stack View Title">
                                                 <rect key="frame" x="273" y="13" width="55" height="25"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJs-52-peq">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJs-52-peq">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgR-uR-vhX">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgR-uR-vhX">
                                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDu-aj-qzW">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDu-aj-qzW">
                                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -862,7 +869,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Yg4-Ac-iH9" userLabel="Stack ViewArtist">
-                                                <rect key="frame" x="20" y="644" width="52" height="29"/>
+                                                <rect key="frame" x="20" y="641" width="52" height="29"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artistiad " textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-0u-hSK">
                                                         <rect key="frame" x="0.0" y="0.0" width="52" height="15"/>
@@ -896,10 +903,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="K2K-0t-fDk"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="6lK-5A-ODX" userLabel="Stack ViewBodyText">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="6lK-5A-ODX" userLabel="Stack ViewBodyText">
                                                 <rect key="frame" x="20" y="426" width="560" height="180"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbi-OJ-4dI">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbi-OJ-4dI">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen y Gwanwyn cewch wrando ar synau drôn o ogledd ddwyrain Cymru gyda Spaceships over Deeside yn ogystal â recordiadau sain yr artist Jacob Whittaker a llawer mwy.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -909,7 +916,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dk-4d-qiy">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dk-4d-qiy">
                                                         <rect key="frame" x="0.0" y="64" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -918,7 +925,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWh-a4-S9a">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWh-a4-S9a">
                                                         <rect key="frame" x="0.0" y="104" width="560" height="36"/>
                                                         <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Spring programme you can listen to drone music from north east Wales with Spaceships over Deeside as well as the sound recordings of the artist Jacob Whittaker and many more.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -928,7 +935,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ri-mx-wjf">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ri-mx-wjf">
                                                         <rect key="frame" x="0.0" y="168" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -941,15 +948,15 @@
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="1wA-Gw-Ok4" userLabel="third Line">
-                                                <rect key="frame" x="20" y="624" width="560" height="1"/>
+                                                <rect key="frame" x="20" y="621" width="560" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="lAH-cX-Bog"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VIm-fk-6JZ">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VIm-fk-6JZ">
                                                 <rect key="frame" x="20" y="689" width="560" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsp-BP-K4D">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsp-BP-K4D">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="24"/>
                                                         <string key="text">SPACESHIPS OVER DEESIDE/ ANNALOGUE/ R.SEILIOG/ JACOB WHITTAKER/ LLION SWYD/ DATBLYGU/ THE MASTER MUSICIANS OF DYFFRYN MOOR/ AP DUW</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -962,7 +969,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="btK-Ku-o2P" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="783" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="780" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaN-1w-sRs">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -1032,8 +1039,8 @@
                                                 <variation key="heightClass=regular-widthClass=regular" constant="-6.5"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="6lK-5A-ODX" secondAttribute="trailing" constant="20" id="CgX-GA-yoV"/>
-                                            <constraint firstItem="btK-Ku-o2P" firstAttribute="top" secondItem="VIm-fk-6JZ" secondAttribute="bottom" constant="70" id="EfY-aM-zPb">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                                            <constraint firstItem="btK-Ku-o2P" firstAttribute="top" secondItem="VIm-fk-6JZ" secondAttribute="bottom" constant="67" id="EfY-aM-zPb">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                             </constraint>
                                             <constraint firstItem="Yg4-Ac-iH9" firstAttribute="top" secondItem="1wA-Gw-Ok4" secondAttribute="bottom" constant="19" id="K2L-sZ-Zfs"/>
                                             <constraint firstItem="QlU-3W-qXv" firstAttribute="top" secondItem="5eq-dr-tF2" secondAttribute="bottom" constant="24" id="KA0-ig-vQg"/>
@@ -1060,7 +1067,7 @@
                                             <constraint firstItem="z2m-nG-V15" firstAttribute="leading" secondItem="vkw-mp-Vkt" secondAttribute="leading" constant="20" id="eVb-rU-f2f"/>
                                             <constraint firstItem="5eq-dr-tF2" firstAttribute="centerX" secondItem="vkw-mp-Vkt" secondAttribute="centerX" id="gBt-1a-vpO"/>
                                             <constraint firstAttribute="trailing" secondItem="QlU-3W-qXv" secondAttribute="trailing" constant="20" id="hq7-lf-NfG"/>
-                                            <constraint firstItem="VIm-fk-6JZ" firstAttribute="top" secondItem="Yg4-Ac-iH9" secondAttribute="bottom" constant="16" id="ijy-Xz-cpS"/>
+                                            <constraint firstItem="VIm-fk-6JZ" firstAttribute="top" secondItem="Yg4-Ac-iH9" secondAttribute="bottom" constant="19" id="ijy-Xz-cpS"/>
                                             <constraint firstItem="Yg4-Ac-iH9" firstAttribute="leading" secondItem="vkw-mp-Vkt" secondAttribute="leading" constant="20" id="jl1-As-XgR"/>
                                             <constraint firstItem="uPX-d4-Mqf" firstAttribute="top" secondItem="QlU-3W-qXv" secondAttribute="bottom" constant="8" id="mt2-Q8-c0K"/>
                                             <constraint firstItem="URE-oZ-j3X" firstAttribute="top" secondItem="QlU-3W-qXv" secondAttribute="bottom" id="njo-ps-lfC"/>
@@ -1071,7 +1078,7 @@
                                             </constraint>
                                             <constraint firstItem="QlU-3W-qXv" firstAttribute="centerX" secondItem="vkw-mp-Vkt" secondAttribute="centerX" id="sya-HB-444"/>
                                             <constraint firstItem="eg6-09-Jah" firstAttribute="top" secondItem="vkw-mp-Vkt" secondAttribute="topMargin" constant="5" id="tm0-bk-mXJ"/>
-                                            <constraint firstItem="1wA-Gw-Ok4" firstAttribute="top" secondItem="6lK-5A-ODX" secondAttribute="bottom" constant="18" id="uLh-20-I08"/>
+                                            <constraint firstItem="1wA-Gw-Ok4" firstAttribute="top" secondItem="6lK-5A-ODX" secondAttribute="bottom" constant="15" id="uLh-20-I08"/>
                                             <constraint firstItem="6lK-5A-ODX" firstAttribute="top" secondItem="z2m-nG-V15" secondAttribute="bottom" constant="14" id="uds-Fo-Cvo"/>
                                             <constraint firstAttribute="trailing" secondItem="xsN-Zl-iu9" secondAttribute="trailing" constant="20" id="uvm-Yd-RD1"/>
                                             <constraint firstAttribute="trailing" secondItem="VIm-fk-6JZ" secondAttribute="trailing" constant="20" id="v2w-HH-Svl"/>
@@ -1138,19 +1145,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQn-vU-9t7" userLabel="Stack View Title">
                                                 <rect key="frame" x="273" y="13" width="55" height="25"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkB-jj-h9s">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkB-jj-h9s">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mop-TX-ad3">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mop-TX-ad3">
                                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40I-LL-r8r">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40I-LL-r8r">
                                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1252,10 +1259,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="XXw-qh-O6U"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="fk5-fs-BaS" userLabel="Stack ViewBodyText">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="fk5-fs-BaS" userLabel="Stack ViewBodyText">
                                                 <rect key="frame" x="20" y="426" width="560" height="180"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qf6-6a-gkm">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qf6-6a-gkm">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Haf cewch wrando ar synau rhyfedd Meic Sbroggs yn ogystal â thrac o un o amryw brosiectau Geraint Ffrancon o dan yr enw Recordiau a llawer mwy.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1265,7 +1272,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldJ-w4-iAf">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldJ-w4-iAf">
                                                         <rect key="frame" x="0.0" y="64" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1274,7 +1281,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxD-E0-kc8">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxD-E0-kc8">
                                                         <rect key="frame" x="0.0" y="104" width="560" height="36"/>
                                                         <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Summer programme you can listen to the strange sounds of Meic Sbroggs as well as a track from one of the various projects operated by Geraint Ffrancon under the name Recordiau, and many more.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1284,7 +1291,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq8-R5-gNc">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq8-R5-gNc">
                                                         <rect key="frame" x="0.0" y="168" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1302,10 +1309,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="y3m-Z0-EDK"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3UY-Y9-RGk">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3UY-Y9-RGk">
                                                 <rect key="frame" x="20" y="689" width="560" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHAUN GREY/ EILIR PIERCE/ LOSIN PWDR/ MEIC SBROGGS/ RECORDIAU/ ECTOGRAM/ CARCHARORION/ IANTO POITCH" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-oG-zQd">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAUN GREY/ EILIR PIERCE/ LOSIN PWDR/ MEIC SBROGGS/ RECORDIAU/ ECTOGRAM/ CARCHARORION/ IANTO POITCH" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-oG-zQd">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="24"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1374,11 +1381,6 @@
                                                     <action selector="summerPlayPressed:" destination="ZNb-7k-6Bx" eventType="touchUpInside" id="BxL-T4-fHL"/>
                                                 </connections>
                                             </button>
-                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaG-yZ-bkw">
-                                                <rect key="frame" x="104" y="783" width="74" height="19"/>
-                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                            </webView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1435,7 +1437,9 @@
                                             <constraint firstItem="eOi-cL-gSz" firstAttribute="top" secondItem="fk5-fs-BaS" secondAttribute="bottom" constant="18" id="wOj-Ep-FZk">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="56"/>
                                             </constraint>
-                                            <constraint firstItem="I0x-ao-grZ" firstAttribute="top" secondItem="3UY-Y9-RGk" secondAttribute="bottom" constant="70" id="whO-t7-2y6"/>
+                                            <constraint firstItem="I0x-ao-grZ" firstAttribute="top" secondItem="3UY-Y9-RGk" secondAttribute="bottom" constant="70" id="whO-t7-2y6">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="eOi-cL-gSz" secondAttribute="trailing" constant="20" id="yzq-vk-Igg"/>
                                         </constraints>
                                         <variation key="default">
@@ -1498,19 +1502,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oVj-AK-bD8" userLabel="Stack View Title">
                                                 <rect key="frame" x="273" y="13" width="55" height="25"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSJ-lI-OoW">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSJ-lI-OoW">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPQ-aB-VPE">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPQ-aB-VPE">
                                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-HX-GuL">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uz4-HX-GuL">
                                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1566,7 +1570,7 @@
                                                 </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Qc1-9T-sGT" userLabel="Stack ViewArtist">
-                                                <rect key="frame" x="20" y="644" width="55" height="29"/>
+                                                <rect key="frame" x="20" y="641" width="55" height="29"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artistiad" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STV-HE-7d6">
                                                         <rect key="frame" x="6" y="0.0" width="49" height="15"/>
@@ -1604,10 +1608,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="yXJ-1x-CFg"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kd0-7J-0t6" userLabel="Stack ViewBodyText">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kd0-7J-0t6" userLabel="Stack ViewBodyText">
                                                 <rect key="frame" x="20" y="426" width="560" height="180"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bh-TZ-tVA">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bh-TZ-tVA">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen y Gaeaf cewch wrando ar un o draciau cynar un o artistiad mwyaf cyffrous Cymru, Y Pencadlys yn ogystal â thrac o’r gorffennol gan yr anhygoel Plant Bach Ofnus a llawer mwy.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1617,7 +1621,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdI-WN-TPo">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdI-WN-TPo">
                                                         <rect key="frame" x="0.0" y="64" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1626,7 +1630,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eof-tf-hpU">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eof-tf-hpU">
                                                         <rect key="frame" x="0.0" y="104" width="560" height="36"/>
                                                         <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Winter programme you can listen to one of the earliest tracks from the irrepressible Y Pencadlys as well as listen to a track from the past with the incredible Plant Bach Ofnus, and many more.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1636,7 +1640,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU1-Ad-wQx">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU1-Ad-wQx">
                                                         <rect key="frame" x="0.0" y="168" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1649,15 +1653,15 @@
                                                 <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="1Aa-5w-iS9" userLabel="third Line">
-                                                <rect key="frame" x="20" y="624" width="560" height="1"/>
+                                                <rect key="frame" x="20" y="621" width="560" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="OLc-5y-um7"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EBE-f8-aE6">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EBE-f8-aE6">
                                                 <rect key="frame" x="20" y="689" width="560" height="12"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHORT &amp; CURLIES/ Y PENCADLYS/ PLANT BACH OFNUS/ TWLC/ Y PHTHWNG/ H O R S E S/ DAVID MYSTERIOUS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR9-7v-Sre">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHORT &amp; CURLIES/ Y PENCADLYS/ PLANT BACH OFNUS/ TWLC/ Y PHTHWNG/ H O R S E S/ DAVID MYSTERIOUS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR9-7v-Sre">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1669,7 +1673,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jvz-mF-wSQ" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="783" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="780" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs8-Lv-TmO">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -1748,7 +1752,7 @@
                                             <constraint firstItem="eBJ-pa-kZD" firstAttribute="centerX" secondItem="hM7-3m-t5u" secondAttribute="centerX" id="Qbv-tF-7OG"/>
                                             <constraint firstItem="E1S-8y-4gC" firstAttribute="top" secondItem="s93-oL-2Gy" secondAttribute="bottom" constant="8" id="RRP-O6-alv"/>
                                             <constraint firstItem="eBJ-pa-kZD" firstAttribute="leading" secondItem="hM7-3m-t5u" secondAttribute="leading" constant="20" id="Ukb-KS-IfY"/>
-                                            <constraint firstItem="EBE-f8-aE6" firstAttribute="top" secondItem="Qc1-9T-sGT" secondAttribute="bottom" constant="16" id="V2s-eA-eM5"/>
+                                            <constraint firstItem="EBE-f8-aE6" firstAttribute="top" secondItem="Qc1-9T-sGT" secondAttribute="bottom" constant="19" id="V2s-eA-eM5"/>
                                             <constraint firstItem="tFY-U0-88H" firstAttribute="top" secondItem="eBJ-pa-kZD" secondAttribute="bottom" constant="24" id="WMr-8v-SUP"/>
                                             <constraint firstAttribute="trailing" secondItem="s93-oL-2Gy" secondAttribute="trailing" constant="23" id="X4a-Hw-nQK"/>
                                             <constraint firstItem="73l-r3-gzJ" firstAttribute="leading" secondItem="hM7-3m-t5u" secondAttribute="leading" constant="20" id="YnQ-A8-PME"/>
@@ -1767,11 +1771,11 @@
                                             <constraint firstAttribute="trailing" secondItem="tFY-U0-88H" secondAttribute="trailing" constant="20" id="jOJ-Pg-dMD"/>
                                             <constraint firstAttribute="trailing" secondItem="1Aa-5w-iS9" secondAttribute="trailing" constant="20" id="lCp-1G-eAr"/>
                                             <constraint firstItem="E1S-8y-4gC" firstAttribute="top" secondItem="73l-r3-gzJ" secondAttribute="bottom" id="nUa-Fq-poy"/>
-                                            <constraint firstItem="1Aa-5w-iS9" firstAttribute="top" secondItem="Kd0-7J-0t6" secondAttribute="bottom" constant="18" id="oLb-WB-8BM">
+                                            <constraint firstItem="1Aa-5w-iS9" firstAttribute="top" secondItem="Kd0-7J-0t6" secondAttribute="bottom" constant="15" id="oLb-WB-8BM">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="56"/>
                                             </constraint>
-                                            <constraint firstItem="jvz-mF-wSQ" firstAttribute="top" secondItem="EBE-f8-aE6" secondAttribute="bottom" constant="82" id="rZJ-eu-uJ5">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="87"/>
+                                            <constraint firstItem="jvz-mF-wSQ" firstAttribute="top" secondItem="EBE-f8-aE6" secondAttribute="bottom" constant="79" id="rZJ-eu-uJ5">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="55"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="E1S-8y-4gC" secondAttribute="trailing" constant="20" id="sJ4-9R-kcK"/>
                                             <constraint firstAttribute="trailing" secondItem="Kd0-7J-0t6" secondAttribute="trailing" constant="20" id="sab-KP-yhL"/>
@@ -1847,19 +1851,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTv-6X-1vu" userLabel="Stack View Title">
                                                 <rect key="frame" x="273" y="13" width="55" height="25"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yl-69-Ne0">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yl-69-Ne0">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFh-FC-x3T">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFh-FC-x3T">
                                                         <rect key="frame" x="17" y="0.0" width="17" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTide" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-MD-HRl">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-MD-HRl">
                                                         <rect key="frame" x="34" y="0.0" width="21" height="25"/>
                                                         <fontDescription key="fontDescription" name="HighTideSans" family="High Tide" pointSize="25"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1945,10 +1949,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="mdk-dc-7mh"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-yl-lL0" userLabel="Stack ViewBodyText">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-yl-lL0" userLabel="Stack ViewBodyText">
                                                 <rect key="frame" x="20" y="426" width="560" height="180"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-7G-w0n">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-7G-w0n">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
                                                         <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Hydref cewch wrando ar Swefn, un o brosiectau yr amryddawn Ian Watson yn ogystal â phrofi curiadau electronig Plyci a llawer mwy.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1958,7 +1962,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikZ-h1-L42">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikZ-h1-L42">
                                                         <rect key="frame" x="0.0" y="64" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1967,7 +1971,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXm-8D-47S">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXm-8D-47S">
                                                         <rect key="frame" x="0.0" y="104" width="560" height="36"/>
                                                         <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Autumn programme you can listen to the Swefn, one of the many projects of the multi-talented Ian Watson as well as sampling the electronic beats of Plyci, and many more.</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
@@ -1977,7 +1981,7 @@
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
                                                         </variation>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkf-et-q2r">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkf-et-q2r">
                                                         <rect key="frame" x="0.0" y="168" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1995,10 +1999,10 @@
                                                     <constraint firstAttribute="height" constant="1" id="oPf-oi-u8A"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-PM-tEP">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-PM-tEP">
                                                 <rect key="frame" x="20" y="689" width="560" height="12"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ISLET/ LOCATION BAKED/ LLENNI LLWM/ MACHO CITY/ SWEFN/ PLYCI/ HIDDEN RIVERS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-6r-r2r">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISLET/ LOCATION BAKED/ LLENNI LLWM/ MACHO CITY/ SWEFN/ PLYCI/ HIDDEN RIVERS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-6r-r2r">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="12"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -2010,7 +2014,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Mo8-wF-l9v" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="783" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="781" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-Om-kCY">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -2083,7 +2087,7 @@
                                             <constraint firstItem="Gav-wg-LGd" firstAttribute="top" secondItem="EDL-vY-o05" secondAttribute="bottom" id="AAl-MW-n8z"/>
                                             <constraint firstItem="yaG-ta-lki" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="C0p-Td-kXt"/>
                                             <constraint firstItem="FN4-yl-lL0" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="CC7-ss-z19"/>
-                                            <constraint firstItem="Mo8-wF-l9v" firstAttribute="top" secondItem="HAZ-PM-tEP" secondAttribute="bottom" constant="82" id="DcX-g4-Fvf">
+                                            <constraint firstItem="Mo8-wF-l9v" firstAttribute="top" secondItem="HAZ-PM-tEP" secondAttribute="bottom" constant="80" id="DcX-g4-Fvf">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="101"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="X8b-DB-a8E" secondAttribute="trailing" constant="26" id="EGW-Aw-GpP"/>
@@ -2178,6 +2182,6 @@
         <image name="play" width="60" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RGd-ld-1Qr"/>
+        <segue reference="xh0-ki-wzm"/>
     </inferredMetricsTieBreakers>
 </document>
