@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "3_Hydref.png",
+      "filename" : "3_Hydref.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "3_Hydref@2x.png",
+      "filename" : "3_Hydref@2x.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "3_Hydref@3x.png",
+      "filename" : "3_Hydref@3x.jpg",
       "scale" : "3x"
     }
   ],

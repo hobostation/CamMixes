@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DC5E88191C8F03C60034B973 /* ViewControllerSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */; };
-		DC71BB231C9866C100262B83 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB1F1C9866C100262B83 /* 1.mp3 */; };
-		DC71BB241C9866C100262B83 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB201C9866C100262B83 /* 2.mp3 */; };
-		DC71BB251C9866C100262B83 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB211C9866C100262B83 /* 3.mp3 */; };
-		DC71BB261C9866C100262B83 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB221C9866C100262B83 /* 4.mp3 */; };
 		DC71BB271C986C9600262B83 /* ViewControllerAutumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */; };
+		DC7D22E91CB68F7500EEBBB0 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7D22E51CB68F7500EEBBB0 /* 1.mp3 */; };
+		DC7D22EA1CB68F7500EEBBB0 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7D22E61CB68F7500EEBBB0 /* 2.mp3 */; };
+		DC7D22EB1CB68F7500EEBBB0 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7D22E71CB68F7500EEBBB0 /* 3.mp3 */; };
+		DC7D22EC1CB68F7500EEBBB0 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC7D22E81CB68F7500EEBBB0 /* 4.mp3 */; };
 		DC7E3A751C91B02C00FF33D9 /* ViewControllerSummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */; };
 		DC7E3A761C91B02C00FF33D9 /* ViewControllerSummer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */; };
 		DC7E3A821C91BF9000FF33D9 /* ViewControllerAutumn.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7E3A801C91BF9000FF33D9 /* ViewControllerAutumn.xib */; };
@@ -33,10 +33,10 @@
 
 /* Begin PBXFileReference section */
 		DC5E88181C8F03C60034B973 /* ViewControllerSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerSpring.swift; path = ../ViewControllerSpring.swift; sourceTree = "<group>"; };
-		DC71BB1F1C9866C100262B83 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = CamMixes/1.mp3; sourceTree = "<group>"; };
-		DC71BB201C9866C100262B83 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = CamMixes/2.mp3; sourceTree = "<group>"; };
-		DC71BB211C9866C100262B83 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = CamMixes/3.mp3; sourceTree = "<group>"; };
-		DC71BB221C9866C100262B83 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = CamMixes/4.mp3; sourceTree = "<group>"; };
+		DC7D22E51CB68F7500EEBBB0 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = "resources/audio/shorter/MP3s SEASONS shorter/1.mp3"; sourceTree = "<group>"; };
+		DC7D22E61CB68F7500EEBBB0 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = "resources/audio/shorter/MP3s SEASONS shorter/2.mp3"; sourceTree = "<group>"; };
+		DC7D22E71CB68F7500EEBBB0 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = "resources/audio/shorter/MP3s SEASONS shorter/3.mp3"; sourceTree = "<group>"; };
+		DC7D22E81CB68F7500EEBBB0 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = "resources/audio/shorter/MP3s SEASONS shorter/4.mp3"; sourceTree = "<group>"; };
 		DC7E3A731C91B02C00FF33D9 /* ViewControllerSummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSummer.swift; sourceTree = "<group>"; };
 		DC7E3A741C91B02C00FF33D9 /* ViewControllerSummer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerSummer.xib; sourceTree = "<group>"; };
 		DC7E3A7F1C91BF9000FF33D9 /* ViewControllerAutumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAutumn.swift; sourceTree = "<group>"; };
@@ -72,10 +72,10 @@
 		DC8745261C9AEDA90070CC3F /* mySongs */ = {
 			isa = PBXGroup;
 			children = (
-				DC71BB1F1C9866C100262B83 /* 1.mp3 */,
-				DC71BB201C9866C100262B83 /* 2.mp3 */,
-				DC71BB211C9866C100262B83 /* 3.mp3 */,
-				DC71BB221C9866C100262B83 /* 4.mp3 */,
+				DC7D22E51CB68F7500EEBBB0 /* 1.mp3 */,
+				DC7D22E61CB68F7500EEBBB0 /* 2.mp3 */,
+				DC7D22E71CB68F7500EEBBB0 /* 3.mp3 */,
+				DC7D22E81CB68F7500EEBBB0 /* 4.mp3 */,
 			);
 			name = mySongs;
 			path = ..;
@@ -199,19 +199,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7D22E91CB68F7500EEBBB0 /* 1.mp3 in Resources */,
 				DCCE68571C874244009559FF /* LaunchScreen.storyboard in Resources */,
 				DC7E3A821C91BF9000FF33D9 /* ViewControllerAutumn.xib in Resources */,
+				DC7D22EC1CB68F7500EEBBB0 /* 4.mp3 in Resources */,
+				DC7D22EA1CB68F7500EEBBB0 /* 2.mp3 in Resources */,
 				DCCE68541C874244009559FF /* Assets.xcassets in Resources */,
 				DC7E3A861C91C2AE00FF33D9 /* ViewControllerWinter.xib in Resources */,
 				DC7E3A761C91B02C00FF33D9 /* ViewControllerSummer.xib in Resources */,
-				DC71BB261C9866C100262B83 /* 4.mp3 in Resources */,
 				DCCE68681C8747A1009559FF /* MYRIADPRO-REGULAR.OTF in Resources */,
-				DC71BB251C9866C100262B83 /* 3.mp3 in Resources */,
+				DC7D22EB1CB68F7500EEBBB0 /* 3.mp3 in Resources */,
 				DCCE68671C8747A1009559FF /* HighTideSans.otf in Resources */,
 				DCCE68661C8747A1009559FF /* HighTideBold.otf in Resources */,
-				DC71BB231C9866C100262B83 /* 1.mp3 in Resources */,
 				DCCE68641C8747A1009559FF /* HelveticaNeue.dfont in Resources */,
-				DC71BB241C9866C100262B83 /* 2.mp3 in Resources */,
 				DCCE68521C874244009559FF /* Main.storyboard in Resources */,
 				DCCE68651C8747A1009559FF /* HighTide.otf in Resources */,
 			);
@@ -343,13 +343,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = CamMixes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hobostation.CamMixes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1f33fc3c-3a96-4eca-b12a-8f306d8cb799";
 			};
 			name = Debug;
 		};
@@ -357,13 +357,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = CamMixes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hobostation.CamMixes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1f33fc3c-3a96-4eca-b12a-8f306d8cb799";
 			};
 			name = Release;
 		};

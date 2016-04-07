@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "1_Gwanwyn.png",
+      "filename" : "1_Gwanwyn.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "1_Gwanwyn@2x.png",
+      "filename" : "1_Gwanwyn@2x.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "1_Gwanwyn@3x.png",
+      "filename" : "1_Gwanwyn@3x.jpg",
       "scale" : "3x"
     }
   ],
