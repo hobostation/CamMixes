@@ -1920,7 +1920,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="dHy-dw-8Ba" userLabel="Stack ViewArtist">
-                                                <rect key="frame" x="20" y="644" width="59" height="29"/>
+                                                <rect key="frame" x="20" y="654" width="59" height="29"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artistiad   " textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qq9-lc-wRh">
                                                         <rect key="frame" x="0.0" y="0.0" width="59" height="15"/>
@@ -1958,58 +1958,14 @@
                                                     <constraint firstAttribute="height" constant="1" id="mdk-dc-7mh"/>
                                                 </constraints>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-yl-lL0" userLabel="Stack ViewBodyText">
-                                                <rect key="frame" x="20" y="426" width="560" height="192"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-7G-w0n">
-                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
-                                                        <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Hydref cewch wrando ar Swefn, un o brosiectau yr amryddawn Ian Watson yn ogystal â phrofi sain arbrofol y band aml-offeryn Islet</string>
-                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
-                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                        </variation>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikZ-h1-L42">
-                                                        <rect key="frame" x="0.0" y="64" width="560" height="12"/>
-                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
-                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                        </variation>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXm-8D-47S">
-                                                        <rect key="frame" x="0.0" y="104" width="560" height="48"/>
-                                                        <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Autumn programme you can listen to the Swefn, one of the many projects of the multi-talented Ian Watson as well as sampling the experimental sounds of the multi-instrument band Islet, and many more</string>
-                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
-                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                        </variation>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkf-et-q2r">
-                                                        <rect key="frame" x="0.0" y="180" width="560" height="12"/>
-                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
-                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                        </variation>
-                                                    </label>
-                                                </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
-                                            </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="6t6-H3-tYc" userLabel="third Line">
-                                                <rect key="frame" x="20" y="624" width="560" height="1"/>
+                                                <rect key="frame" x="20" y="636" width="560" height="1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="oPf-oi-u8A"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-PM-tEP">
-                                                <rect key="frame" x="20" y="689" width="560" height="12"/>
+                                                <rect key="frame" x="20" y="699" width="560" height="12"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISLET/ LOCATION BAKED/ LLENNI LLWM/ SWEFN/ HIDDEN RIVERS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-6r-r2r">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="12"/>
@@ -2023,7 +1979,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Mo8-wF-l9v" userLabel="Stack View - Footer">
-                                                <rect key="frame" x="227" y="781" width="146" height="14"/>
+                                                <rect key="frame" x="227" y="791" width="146" height="14"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREU / ARBROFI / MYNEGI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUU-Om-kCY">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
@@ -2080,6 +2036,50 @@
                                                     <action selector="autumnPlayPressed:" destination="ABB-vi-Eak" eventType="touchUpInside" id="F0R-OG-VgV"/>
                                                 </connections>
                                             </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-yl-lL0" userLabel="Stack ViewBodyText">
+                                                <rect key="frame" x="20" y="426" width="560" height="192"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-7G-w0n">
+                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="36"/>
+                                                        <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Hydref cewch wrando ar Swefn, un o brosiectau yr amryddawn Ian Watson yn ogystal â phrofi sain arbrofol y band aml-offeryn Islet</string>
+                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I gael clywed ein rhaglenni radio rheolaidd, ewch i’n gwefan cam.cymru" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikZ-h1-L42">
+                                                        <rect key="frame" x="0.0" y="64" width="560" height="12"/>
+                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXm-8D-47S">
+                                                        <rect key="frame" x="0.0" y="104" width="560" height="48"/>
+                                                        <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Autumn programme you can listen to the Swefn, one of the many projects of the multi-talented Ian Watson as well as sampling the experimental sounds of the multi-instrument band Islet, and many more</string>
+                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To listen to our regular radio shows, go to our website cam.wales" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkf-et-q2r">
+                                                        <rect key="frame" x="0.0" y="180" width="560" height="12"/>
+                                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
+                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2090,7 +2090,8 @@
                                                 <variation key="heightClass=regular-widthClass=regular" constant="16"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="m7o-hZ-v9j" secondAttribute="trailing" constant="20" id="5UQ-hH-6ee"/>
-                                            <constraint firstItem="6t6-H3-tYc" firstAttribute="top" secondItem="FN4-yl-lL0" secondAttribute="bottom" constant="6" id="7rx-Bq-k5E">
+                                            <constraint firstItem="dHy-dw-8Ba" firstAttribute="top" secondItem="6t6-H3-tYc" secondAttribute="bottom" constant="17" id="6J7-GP-MTD"/>
+                                            <constraint firstItem="6t6-H3-tYc" firstAttribute="top" secondItem="FN4-yl-lL0" secondAttribute="bottom" constant="18" id="7rx-Bq-k5E">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="58"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="FN4-yl-lL0" secondAttribute="trailing" constant="20" id="8yE-TQ-BXm"/>
@@ -2098,6 +2099,7 @@
                                             <constraint firstItem="Gav-wg-LGd" firstAttribute="top" secondItem="EDL-vY-o05" secondAttribute="bottom" id="AAl-MW-n8z"/>
                                             <constraint firstItem="yaG-ta-lki" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="C0p-Td-kXt"/>
                                             <constraint firstItem="FN4-yl-lL0" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="CC7-ss-z19"/>
+                                            <constraint firstItem="dHy-dw-8Ba" firstAttribute="top" secondItem="6t6-H3-tYc" secondAttribute="bottom" constant="7" id="CM0-Nc-HKl"/>
                                             <constraint firstItem="Mo8-wF-l9v" firstAttribute="top" secondItem="HAZ-PM-tEP" secondAttribute="bottom" constant="80" id="DcX-g4-Fvf">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="120"/>
                                             </constraint>
@@ -2123,7 +2125,6 @@
                                             <constraint firstAttribute="trailing" secondItem="6t6-H3-tYc" secondAttribute="trailing" constant="20" id="aQa-F1-cgn"/>
                                             <constraint firstItem="Gav-wg-LGd" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="d0m-nd-bbz"/>
                                             <constraint firstAttribute="trailing" secondItem="hVq-ya-CbW" secondAttribute="trailing" constant="20" id="dYx-xg-NaU"/>
-                                            <constraint firstItem="dHy-dw-8Ba" firstAttribute="top" secondItem="6t6-H3-tYc" secondAttribute="bottom" constant="19" id="fwy-Fv-YA6"/>
                                             <constraint firstItem="FN4-yl-lL0" firstAttribute="top" secondItem="yaG-ta-lki" secondAttribute="bottom" constant="14" id="gjE-4a-KzL"/>
                                             <constraint firstItem="Mo8-wF-l9v" firstAttribute="centerX" secondItem="rUN-5P-Qpd" secondAttribute="centerX" id="hTM-zh-Pnd"/>
                                             <constraint firstItem="m7o-hZ-v9j" firstAttribute="centerX" secondItem="rUN-5P-Qpd" secondAttribute="centerX" id="hcc-WN-c4y"/>
@@ -2145,6 +2146,7 @@
                                             <mask key="constraints">
                                                 <exclude reference="4GK-W8-rEy"/>
                                                 <exclude reference="zH0-ah-UB0"/>
+                                                <exclude reference="CM0-Nc-HKl"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=regular">
@@ -2197,6 +2199,6 @@
         <image name="play" width="60" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="95g-vQ-n5u"/>
+        <segue reference="ChV-6D-7tU"/>
     </inferredMetricsTieBreakers>
 </document>
