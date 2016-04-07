@@ -1002,14 +1002,14 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VIm-fk-6JZ">
                                                 <rect key="frame" x="20" y="689" width="560" height="28"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsp-BP-K4D">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SPACESHIPS OVER DEESIDE/ ANNALOGUE/ R.SEILIOG/ JACOB WHITTAKER/ LLION SWYD/ DATBLYGU" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsp-BP-K4D">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="28"/>
-                                                        <string key="text">SPACESHIPS OVER DEESIDE/ ANNALOGUE/ R.SEILIOG/ JACOB WHITTAKER/ LLION SWYD/ DATBLYGU/ THE MASTER MUSICIANS OF DYFFRYN MOOR/ AP DUW</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="28"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
@@ -1370,18 +1370,19 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3UY-Y9-RGk">
                                                 <rect key="frame" x="20" y="689" width="560" height="28"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHAUN GREY/ EILIR PIERCE/ LOSIN PWDR/ MEIC SBROGGS/ RECORDIAU/ ECTOGRAM/ CARCHARORION/ IANTO POITCH" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-oG-zQd">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHAUN GREY/ LOSIN PWDR/ MEIC SBROGGS/ RECORDIAU/ ECTOGRAM" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-oG-zQd">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="28"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="14"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
                                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="937" width="560" height="28"/>
+                                                    <rect key="frame" x="20" y="937" width="560" height="14"/>
                                                 </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I0x-ao-grZ" userLabel="Stack View - Footer">
