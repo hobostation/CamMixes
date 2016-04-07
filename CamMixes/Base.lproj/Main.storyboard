@@ -93,9 +93,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="269" y="10" width="55" height="25"/>
-                                </variation>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Main Top Image" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-4K-2p1" userLabel="Top image">
                                 <rect key="frame" x="20" y="39" width="560" height="256"/>
@@ -109,15 +106,9 @@
                                         <exclude reference="K2b-aQ-qmD"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="60" width="560" height="280"/>
-                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-VV-lqR" userLabel="TopImageButton">
                                 <rect key="frame" x="20" y="39" width="560" height="256"/>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="60" width="560" height="280"/>
-                                </variation>
                                 <connections>
                                     <segue destination="I6S-iA-gnK" kind="show" id="Pdp-nR-6iU"/>
                                 </connections>
@@ -132,9 +123,6 @@
                                         <exclude reference="xqJ-NT-xX9"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="353" width="273" height="208"/>
-                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-bN-YSM" userLabel="SpringButton">
                                 <rect key="frame" x="20" y="308" width="276" height="207"/>
@@ -147,9 +135,6 @@
                                         <exclude reference="QAr-be-JIR"/>
                                         <exclude reference="cq8-3C-qT2"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="353" width="273" height="207"/>
                                 </variation>
                                 <connections>
                                     <segue destination="XhV-ST-lkQ" kind="show" id="MLX-Cf-cob"/>
@@ -165,9 +150,6 @@
                                         <exclude reference="Kq9-Jf-D8l"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="575" width="273" height="208"/>
-                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-hJ-CYK" userLabel="summerView">
                                 <rect key="frame" x="304" y="308" width="276" height="208"/>
@@ -179,9 +161,6 @@
                                         <exclude reference="Ey7-rY-dtM"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="301" y="353" width="279" height="208"/>
-                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-9v-XHJ" userLabel="winter View">
                                 <rect key="frame" x="304" y="530" width="276" height="208"/>
@@ -192,9 +171,6 @@
                                     <mask key="constraints">
                                         <exclude reference="1Xt-PO-pM9"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="301" y="575" width="279" height="208"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9a-rt-A1x" userLabel="winterButton">
@@ -209,9 +185,7 @@
                                         <exclude reference="xH1-pf-ilF"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES" layoutMarginsFollowReadableWidth="NO">
-                                    <rect key="frame" x="301" y="575" width="279" height="204"/>
-                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" layoutMarginsFollowReadableWidth="NO"/>
                                 <connections>
                                     <segue destination="vTd-fu-qFp" kind="show" id="jKg-HM-ACB"/>
                                 </connections>
@@ -229,9 +203,6 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLv-Bp-6TZ" userLabel="autumButton">
                                 <rect key="frame" x="20" y="530" width="276" height="209"/>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="575" width="273" height="204"/>
-                                </variation>
                                 <connections>
                                     <segue destination="ABB-vi-Eak" kind="show" id="60d-gR-Tmn"/>
                                 </connections>
@@ -251,9 +222,6 @@
                                         <exclude reference="27o-4z-Cwp"/>
                                         <exclude reference="E1K-7m-3jp"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="301" y="353" width="279" height="209"/>
                                 </variation>
                                 <connections>
                                     <segue destination="ZNb-7k-6Bx" kind="show" id="Xal-UT-QbL"/>
@@ -325,7 +293,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" constant="-7"/>
                             </constraint>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="QVz-O8-0XY"/>
-                            <constraint firstItem="R5J-4K-2p1" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="20" id="SQK-Oe-CtC"/>
+                            <constraint firstItem="R5J-4K-2p1" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="20" id="SQK-Oe-CtC">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
                             <constraint firstItem="RvP-hJ-CYK" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="TTi-mb-7bl">
                                 <variation key="heightClass=regular-widthClass=regular" constant="18"/>
                             </constraint>
@@ -355,7 +325,7 @@
                             </constraint>
                             <constraint firstItem="Vbq-VV-lqR" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="bpT-Gh-RcN"/>
                             <constraint firstItem="SOD-Y3-XvZ" firstAttribute="centerX" secondItem="sW1-Dz-eE0" secondAttribute="centerX" constant="-1.5" id="bx7-c6-AgT">
-                                <variation key="heightClass=regular-widthClass=regular" constant="-2.5"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-3.5"/>
                             </constraint>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="top" secondItem="RvP-hJ-CYK" secondAttribute="bottom" constant="14" id="c2X-Vh-yHs">
                                 <variation key="heightClass=regular-widthClass=regular" constant="14"/>
@@ -415,7 +385,9 @@
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="top" secondItem="Vbq-VV-lqR" secondAttribute="bottom" constant="13" id="stK-Y2-hwz"/>
                             <constraint firstItem="n9a-rt-A1x" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="uK2-UK-W3z"/>
                             <constraint firstItem="EUo-TB-7cA" firstAttribute="trailing" secondItem="sW1-Dz-eE0" secondAttribute="trailingMargin" id="uas-KO-TZO"/>
-                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="20" id="vMU-66-3vH"/>
+                            <constraint firstItem="Vbq-VV-lqR" firstAttribute="top" secondItem="SOD-Y3-XvZ" secondAttribute="bottom" constant="20" id="vMU-66-3vH">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
                             <constraint firstItem="bWA-9v-XHJ" firstAttribute="top" secondItem="EUo-TB-7cA" secondAttribute="bottom" constant="13" placeholder="YES" id="vbx-Vi-UWO"/>
                             <constraint firstItem="anm-9c-i0M" firstAttribute="top" secondItem="bgF-bN-YSM" secondAttribute="bottom" constant="15" id="z64-uz-HxS">
                                 <variation key="heightClass=regular-widthClass=regular" constant="14"/>
@@ -669,9 +641,7 @@
                                                         </variation>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES" spacing="22">
-                                                    <rect key="frame" x="20" y="715" width="560" height="100"/>
-                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular" spacing="22"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ICJ-8M-kJt" userLabel="Stack View - company text">
                                                 <rect key="frame" x="40" y="676" width="521" height="46"/>
@@ -707,9 +677,6 @@
                                                         <exclude reference="o9A-fM-XPL"/>
                                                     </mask>
                                                 </variation>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="40" y="905" width="521" height="46"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R0g-za-mTJ" userLabel="Stack View - Footer">
                                                 <rect key="frame" x="227" y="730" width="146" height="14"/>
@@ -721,9 +688,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="227" y="980" width="146" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="TIf-w5-dpX" userLabel="Stack ViewAboutTitle">
                                                 <rect key="frame" x="524" y="329" width="59" height="29"/>
@@ -767,7 +731,7 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Sfz-kH-5o7" secondAttribute="trailing" constant="20" id="2Ez-Zk-YYT"/>
                                             <constraint firstItem="R0g-za-mTJ" firstAttribute="top" secondItem="ICJ-8M-kJt" secondAttribute="bottom" constant="14" id="3Xd-JG-Sfi">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="23"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="29"/>
                                             </constraint>
                                             <constraint firstItem="vTA-yo-CrH" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="3nK-2I-FVS"/>
                                             <constraint firstAttribute="trailing" secondItem="Zsc-Iw-WyE" secondAttribute="trailing" constant="20" id="7Nf-TZ-MOm"/>
@@ -780,7 +744,9 @@
                                             <constraint firstItem="GEY-Mt-Pxt" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="20" id="IzY-yK-XLN"/>
                                             <constraint firstItem="pMJ-mB-gkP" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="20" id="LrR-ck-XAP"/>
                                             <constraint firstItem="ICJ-8M-kJt" firstAttribute="leading" secondItem="D6F-7d-ab5" secondAttribute="leading" constant="40" id="N63-JM-kp2"/>
-                                            <constraint firstItem="ICJ-8M-kJt" firstAttribute="top" secondItem="GEY-Mt-Pxt" secondAttribute="bottom" constant="61" id="Oem-As-VYc"/>
+                                            <constraint firstItem="ICJ-8M-kJt" firstAttribute="top" secondItem="GEY-Mt-Pxt" secondAttribute="bottom" constant="61" id="Oem-As-VYc">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="GEY-Mt-Pxt" secondAttribute="trailing" constant="20" id="P9f-4Q-Vjp"/>
                                             <constraint firstItem="vTA-yo-CrH" firstAttribute="top" secondItem="Sfz-kH-5o7" secondAttribute="bottom" constant="23" id="PYY-Xf-fvn"/>
                                             <constraint firstAttribute="trailing" secondItem="TIf-w5-dpX" secondAttribute="trailing" constant="17" id="RSr-ri-rmv"/>
@@ -798,7 +764,7 @@
                                             <constraint firstItem="Zsc-Iw-WyE" firstAttribute="centerX" secondItem="D6F-7d-ab5" secondAttribute="centerX" id="xcu-uf-PMx"/>
                                             <constraint firstItem="Sfz-kH-5o7" firstAttribute="top" secondItem="TIf-w5-dpX" secondAttribute="bottom" constant="7" id="xdK-xm-H2b"/>
                                             <constraint firstItem="GEY-Mt-Pxt" firstAttribute="top" secondItem="vTA-yo-CrH" secondAttribute="bottom" constant="68" id="yGp-O4-e1l">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="47"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="63"/>
                                             </constraint>
                                         </constraints>
                                     </view>
@@ -936,9 +902,6 @@
                                                         <exclude reference="DVe-An-Czj"/>
                                                     </mask>
                                                 </variation>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="851" width="52" height="29"/>
-                                                </variation>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="xsN-Zl-iu9" userLabel="second Line">
                                                 <rect key="frame" x="20" y="366" width="560" height="1"/>
@@ -995,9 +958,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="lAH-cX-Bog"/>
                                                 </constraints>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="831" width="560" height="1"/>
-                                                </variation>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VIm-fk-6JZ">
                                                 <rect key="frame" x="20" y="689" width="560" height="28"/>
@@ -1007,15 +967,11 @@
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                        <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="28"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="899" width="560" height="28"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="btK-Ku-o2P" userLabel="Stack View - Footer">
                                                 <rect key="frame" x="227" y="780" width="146" height="14"/>
@@ -1027,9 +983,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="227" y="1012" width="146" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="z2m-nG-V15" userLabel="Stack ViewSummary">
                                                 <rect key="frame" x="20" y="383" width="63" height="29"/>
@@ -1092,7 +1045,7 @@
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="6lK-5A-ODX" secondAttribute="trailing" constant="20" id="CgX-GA-yoV"/>
                                             <constraint firstItem="btK-Ku-o2P" firstAttribute="top" secondItem="VIm-fk-6JZ" secondAttribute="bottom" constant="67" id="EfY-aM-zPb">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="85"/>
                                             </constraint>
                                             <constraint firstItem="Yg4-Ac-iH9" firstAttribute="top" secondItem="1wA-Gw-Ok4" secondAttribute="bottom" constant="19" id="K2L-sZ-Zfs"/>
                                             <constraint firstItem="QlU-3W-qXv" firstAttribute="top" secondItem="5eq-dr-tF2" secondAttribute="bottom" constant="24" id="KA0-ig-vQg"/>
@@ -1130,7 +1083,9 @@
                                             </constraint>
                                             <constraint firstItem="QlU-3W-qXv" firstAttribute="centerX" secondItem="vkw-mp-Vkt" secondAttribute="centerX" id="sya-HB-444"/>
                                             <constraint firstItem="eg6-09-Jah" firstAttribute="top" secondItem="vkw-mp-Vkt" secondAttribute="topMargin" constant="5" id="tm0-bk-mXJ"/>
-                                            <constraint firstItem="1wA-Gw-Ok4" firstAttribute="top" secondItem="6lK-5A-ODX" secondAttribute="bottom" constant="15" id="uLh-20-I08"/>
+                                            <constraint firstItem="1wA-Gw-Ok4" firstAttribute="top" secondItem="6lK-5A-ODX" secondAttribute="bottom" constant="15" id="uLh-20-I08">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="41"/>
+                                            </constraint>
                                             <constraint firstItem="6lK-5A-ODX" firstAttribute="top" secondItem="z2m-nG-V15" secondAttribute="bottom" constant="14" id="uds-Fo-Cvo"/>
                                             <constraint firstAttribute="trailing" secondItem="xsN-Zl-iu9" secondAttribute="trailing" constant="20" id="uvm-Yd-RD1"/>
                                             <constraint firstAttribute="trailing" secondItem="VIm-fk-6JZ" secondAttribute="trailing" constant="20" id="v2w-HH-Svl"/>
@@ -1304,9 +1259,6 @@
                                                         <exclude reference="zwi-wu-BvP"/>
                                                     </mask>
                                                 </variation>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="892" width="55" height="29"/>
-                                                </variation>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="aS7-Ik-L9t" userLabel="second Line">
                                                 <rect key="frame" x="20" y="366" width="560" height="1"/>
@@ -1363,9 +1315,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="y3m-Z0-EDK"/>
                                                 </constraints>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="872" width="560" height="1"/>
-                                                </variation>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3UY-Y9-RGk">
                                                 <rect key="frame" x="20" y="689" width="560" height="28"/>
@@ -1375,15 +1324,11 @@
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                                        <variation key="heightClass=regular-widthClass=regular">
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="14"/>
-                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="14"/>
                                                         </variation>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="937" width="560" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I0x-ao-grZ" userLabel="Stack View - Footer">
                                                 <rect key="frame" x="227" y="783" width="146" height="14"/>
@@ -1395,9 +1340,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="227" y="1025" width="146" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HI1-xb-Vf2" userLabel="Stack ViewSummary">
                                                 <rect key="frame" x="20" y="383" width="63" height="29"/>
@@ -1500,10 +1442,10 @@
                                             <constraint firstItem="3UY-Y9-RGk" firstAttribute="top" secondItem="0uB-3n-Z3S" secondAttribute="bottom" constant="16" id="v7e-Sn-hgf"/>
                                             <constraint firstItem="WEu-FC-9PC" firstAttribute="centerX" secondItem="NEH-Yd-1hO" secondAttribute="centerX" id="wFS-US-t4w"/>
                                             <constraint firstItem="eOi-cL-gSz" firstAttribute="top" secondItem="fk5-fs-BaS" secondAttribute="bottom" constant="18" id="wOj-Ep-FZk">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="56"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="82"/>
                                             </constraint>
                                             <constraint firstItem="I0x-ao-grZ" firstAttribute="top" secondItem="3UY-Y9-RGk" secondAttribute="bottom" constant="70" id="whO-t7-2y6">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="eOi-cL-gSz" secondAttribute="trailing" constant="20" id="yzq-vk-Igg"/>
                                         </constraints>
@@ -1658,9 +1600,6 @@
                                                         <exclude reference="pBD-lU-qhf"/>
                                                     </mask>
                                                 </variation>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="892" width="55" height="29"/>
-                                                </variation>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="E1S-8y-4gC" userLabel="second Line">
                                                 <rect key="frame" x="20" y="366" width="560" height="1"/>
@@ -1717,14 +1656,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="OLc-5y-um7"/>
                                                 </constraints>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="872" width="560" height="1"/>
-                                                </variation>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EBE-f8-aE6">
                                                 <rect key="frame" x="20" y="689" width="560" height="28"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SHORT &amp; CURLIES/ Y PENCADLYS/ PLANT BACH OFNUS/ TWLC/ Y PHTHWNG/ H O R S E S/ DAVID MYSTERIOUS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR9-7v-Sre">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Y PENCADLYS/ PLANT BACH OFNUS/ TWLC/ Y PHTHWNG/ H O R S E S/ DAVID MYSTERIOUS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR9-7v-Sre">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="28"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1734,9 +1670,6 @@
                                                         </variation>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="940" width="560" height="28"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jvz-mF-wSQ" userLabel="Stack View - Footer">
                                                 <rect key="frame" x="227" y="780" width="146" height="14"/>
@@ -1748,9 +1681,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="227" y="1028" width="146" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1wq-fl-ZhI" userLabel="Stack ViewSummary">
                                                 <rect key="frame" x="20" y="383" width="63" height="29"/>
@@ -1806,9 +1736,6 @@
                                                         <variation key="heightClass=regular-widthClass=regular" constant="400"/>
                                                     </constraint>
                                                 </constraints>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="51" width="560" height="400"/>
-                                                </variation>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1819,7 +1746,7 @@
                                             <constraint firstItem="Kd0-7J-0t6" firstAttribute="centerX" secondItem="hM7-3m-t5u" secondAttribute="centerX" id="5zE-4R-M9b"/>
                                             <constraint firstItem="1wq-fl-ZhI" firstAttribute="top" secondItem="E1S-8y-4gC" secondAttribute="bottom" constant="16" id="95d-Ny-YN0"/>
                                             <constraint firstItem="eBJ-pa-kZD" firstAttribute="top" secondItem="oVj-AK-bD8" secondAttribute="bottom" constant="4" id="Aek-pR-Txz">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="16"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="13"/>
                                             </constraint>
                                             <constraint firstItem="bpQ-es-CAd" firstAttribute="top" secondItem="hM7-3m-t5u" secondAttribute="top" id="DNM-nk-lhv">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="3"/>
@@ -1833,7 +1760,9 @@
                                             <constraint firstItem="E1S-8y-4gC" firstAttribute="top" secondItem="s93-oL-2Gy" secondAttribute="bottom" constant="8" id="RRP-O6-alv"/>
                                             <constraint firstItem="eBJ-pa-kZD" firstAttribute="leading" secondItem="hM7-3m-t5u" secondAttribute="leading" constant="20" id="Ukb-KS-IfY"/>
                                             <constraint firstItem="EBE-f8-aE6" firstAttribute="top" secondItem="Qc1-9T-sGT" secondAttribute="bottom" constant="19" id="V2s-eA-eM5"/>
-                                            <constraint firstItem="tFY-U0-88H" firstAttribute="top" secondItem="eBJ-pa-kZD" secondAttribute="bottom" constant="24" id="WMr-8v-SUP"/>
+                                            <constraint firstItem="tFY-U0-88H" firstAttribute="top" secondItem="eBJ-pa-kZD" secondAttribute="bottom" constant="24" id="WMr-8v-SUP">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="27"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="s93-oL-2Gy" secondAttribute="trailing" constant="23" id="X4a-Hw-nQK"/>
                                             <constraint firstItem="73l-r3-gzJ" firstAttribute="leading" secondItem="hM7-3m-t5u" secondAttribute="leading" constant="20" id="YnQ-A8-PME"/>
                                             <constraint firstItem="73l-r3-gzJ" firstAttribute="top" secondItem="tFY-U0-88H" secondAttribute="bottom" id="ZZF-Wy-AFF"/>
@@ -1852,10 +1781,10 @@
                                             <constraint firstAttribute="trailing" secondItem="1Aa-5w-iS9" secondAttribute="trailing" constant="20" id="lCp-1G-eAr"/>
                                             <constraint firstItem="E1S-8y-4gC" firstAttribute="top" secondItem="73l-r3-gzJ" secondAttribute="bottom" id="nUa-Fq-poy"/>
                                             <constraint firstItem="1Aa-5w-iS9" firstAttribute="top" secondItem="Kd0-7J-0t6" secondAttribute="bottom" constant="15" id="oLb-WB-8BM">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="56"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="82"/>
                                             </constraint>
                                             <constraint firstItem="jvz-mF-wSQ" firstAttribute="top" secondItem="EBE-f8-aE6" secondAttribute="bottom" constant="79" id="rZJ-eu-uJ5">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="E1S-8y-4gC" secondAttribute="trailing" constant="20" id="sJ4-9R-kcK"/>
                                             <constraint firstAttribute="trailing" secondItem="Kd0-7J-0t6" secondAttribute="trailing" constant="20" id="sab-KP-yhL"/>
@@ -2022,9 +1951,6 @@
                                                         <exclude reference="nWv-rf-ZdH"/>
                                                     </mask>
                                                 </variation>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="854" width="59" height="29"/>
-                                                </variation>
                                             </stackView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line black" translatesAutoresizingMaskIntoConstraints="NO" id="Gav-wg-LGd" userLabel="second Line">
                                                 <rect key="frame" x="20" y="366" width="560" height="1"/>
@@ -2037,7 +1963,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8a-7G-w0n">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="42"/>
-                                                        <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Hydref cewch wrando ar Swefn, un o brosiectau yr amryddawn Ian Watson yn ogystal â phrofi curiadau electronig Plyci a llawer mwy.</string>
+                                                        <string key="text">Rhagflas o’r gerddoriaeth arbrofol ac electroneg sydd yn cael ei greu yng Nghymru heddiw gyda ambell i fflach ysbrydoledig o’r gorffennol. Yn rhaglen yr Hydref cewch wrando ar Swefn, un o brosiectau yr amryddawn Ian Watson yn ogystal â phrofi sain arbrofol y band aml-offeryn Islet</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -2056,7 +1982,7 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXm-8D-47S">
                                                         <rect key="frame" x="0.0" y="112" width="560" height="42"/>
-                                                        <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Autumn programme you can listen to the Swefn, one of the many projects of the multi-talented Ian Watson as well as sampling the electronic beats of Plyci, and many more.</string>
+                                                        <string key="text">A taste of the experimental and electronic music created in Wales today with an occasional inspirational flash from the past. In the Autumn programme you can listen to the Swefn, one of the many projects of the multi-talented Ian Watson as well as sampling the experimental sounds of the multi-instrument band Islet, and many more</string>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -2081,14 +2007,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="oPf-oi-u8A"/>
                                                 </constraints>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="834" width="560" height="1"/>
-                                                </variation>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-PM-tEP">
                                                 <rect key="frame" x="20" y="689" width="560" height="14"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ISLET/ LOCATION BAKED/ LLENNI LLWM/ MACHO CITY/ SWEFN/ PLYCI/ HIDDEN RIVERS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-6r-r2r">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ISLET/ LOCATION BAKED/ LLENNI LLWM/ SWEFN/ HIDDEN RIVERS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-6r-r2r">
                                                         <rect key="frame" x="0.0" y="0.0" width="560" height="14"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -2098,9 +2021,6 @@
                                                         </variation>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="20" y="899" width="560" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Mo8-wF-l9v" userLabel="Stack View - Footer">
                                                 <rect key="frame" x="227" y="781" width="146" height="14"/>
@@ -2112,9 +2032,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                                                    <rect key="frame" x="227" y="1033" width="146" height="14"/>
-                                                </variation>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yaG-ta-lki" userLabel="Stack ViewSummary">
                                                 <rect key="frame" x="20" y="383" width="63" height="29"/>
@@ -2173,14 +2090,16 @@
                                                 <variation key="heightClass=regular-widthClass=regular" constant="16"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="m7o-hZ-v9j" secondAttribute="trailing" constant="20" id="5UQ-hH-6ee"/>
-                                            <constraint firstItem="6t6-H3-tYc" firstAttribute="top" secondItem="FN4-yl-lL0" secondAttribute="bottom" constant="18" id="7rx-Bq-k5E"/>
+                                            <constraint firstItem="6t6-H3-tYc" firstAttribute="top" secondItem="FN4-yl-lL0" secondAttribute="bottom" constant="18" id="7rx-Bq-k5E">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="58"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="FN4-yl-lL0" secondAttribute="trailing" constant="20" id="8yE-TQ-BXm"/>
                                             <constraint firstItem="m7o-hZ-v9j" firstAttribute="top" secondItem="hVq-ya-CbW" secondAttribute="bottom" constant="24" id="9HP-o4-H0w"/>
                                             <constraint firstItem="Gav-wg-LGd" firstAttribute="top" secondItem="EDL-vY-o05" secondAttribute="bottom" id="AAl-MW-n8z"/>
                                             <constraint firstItem="yaG-ta-lki" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="C0p-Td-kXt"/>
                                             <constraint firstItem="FN4-yl-lL0" firstAttribute="leading" secondItem="rUN-5P-Qpd" secondAttribute="leading" constant="20" id="CC7-ss-z19"/>
                                             <constraint firstItem="Mo8-wF-l9v" firstAttribute="top" secondItem="HAZ-PM-tEP" secondAttribute="bottom" constant="80" id="DcX-g4-Fvf">
-                                                <variation key="heightClass=regular-widthClass=regular" constant="101"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="120"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="X8b-DB-a8E" secondAttribute="trailing" constant="26" id="EGW-Aw-GpP"/>
                                             <constraint firstItem="X8b-DB-a8E" firstAttribute="top" secondItem="m7o-hZ-v9j" secondAttribute="bottom" constant="8" id="F9Y-sw-oJF"/>
@@ -2278,6 +2197,6 @@
         <image name="play" width="60" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RGd-ld-1Qr"/>
+        <segue reference="95g-vQ-n5u"/>
     </inferredMetricsTieBreakers>
 </document>
