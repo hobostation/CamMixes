@@ -873,7 +873,7 @@
                                                     <constraint firstAttribute="height" constant="25" id="Pyw-zI-FdD"/>
                                                 </constraints>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring image" translatesAutoresizingMaskIntoConstraints="NO" id="5eq-dr-tF2" userLabel="spring main image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Spring" translatesAutoresizingMaskIntoConstraints="NO" id="5eq-dr-tF2" userLabel="spring main image">
                                                 <rect key="frame" x="20" y="46" width="560" height="250"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="250" id="M5S-mq-Pyu">
@@ -1221,7 +1221,7 @@
                                                     <constraint firstAttribute="height" constant="25" id="GHP-MR-S61"/>
                                                 </constraints>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer image" translatesAutoresizingMaskIntoConstraints="NO" id="Izf-Ze-1pw" userLabel="spring main image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main-summer" translatesAutoresizingMaskIntoConstraints="NO" id="Izf-Ze-1pw" userLabel="spring main image">
                                                 <rect key="frame" x="20" y="46" width="560" height="250"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="250" id="2ua-or-isa">
@@ -1798,7 +1798,7 @@
                                                     <action selector="winterPlayPressed:" destination="vTd-fu-qFp" eventType="touchUpInside" id="UJU-0c-fEu"/>
                                                 </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter Image" translatesAutoresizingMaskIntoConstraints="NO" id="eBJ-pa-kZD" userLabel="spring main image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main-gaeaf" translatesAutoresizingMaskIntoConstraints="NO" id="eBJ-pa-kZD" userLabel="spring main image">
                                                 <rect key="frame" x="20" y="46" width="560" height="250"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="250" id="cjB-rW-YaO">
@@ -1954,7 +1954,7 @@
                                                     <constraint firstAttribute="height" constant="25" id="UFa-rw-fXh"/>
                                                 </constraints>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Autumn Image" translatesAutoresizingMaskIntoConstraints="NO" id="hVq-ya-CbW" userLabel="spring main image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main-autumn" translatesAutoresizingMaskIntoConstraints="NO" id="hVq-ya-CbW" userLabel="spring main image">
                                                 <rect key="frame" x="20" y="46" width="560" height="250"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="250" id="gcy-3V-ukS">
@@ -2263,16 +2263,20 @@
     </scenes>
     <resources>
         <image name="Autumn Image" width="429" height="323"/>
+        <image name="Main Spring" width="895" height="422"/>
         <image name="Main Top Image" width="895" height="422"/>
+        <image name="Main-gaeaf" width="1416" height="668"/>
+        <image name="Main-summer" width="1416" height="668"/>
         <image name="Spring image" width="429" height="323"/>
         <image name="Summer image" width="429" height="323"/>
         <image name="Winter Image" width="429" height="323"/>
         <image name="about main image" width="895" height="422"/>
         <image name="back button" width="14" height="21"/>
         <image name="line black" width="1000" height="1"/>
+        <image name="main-autumn" width="1416" height="668"/>
         <image name="play" width="60" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="95g-vQ-n5u"/>
+        <segue reference="RGd-ld-1Qr"/>
     </inferredMetricsTieBreakers>
 </document>
